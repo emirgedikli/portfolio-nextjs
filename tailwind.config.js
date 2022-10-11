@@ -7,10 +7,10 @@ module.exports = {
   content: ["./pages/**/*.{js,ts,jsx,tsx}", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      ...colors,
       colors: {
         darkBlue: "#1f2937",
       },
-      ...colors,
     },
   },
   plugins: [],
