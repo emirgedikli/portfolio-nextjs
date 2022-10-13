@@ -1,14 +1,15 @@
-.fontCinzel {
-  font-family: "Cinzel", serif;
+.fontFjallaOne {
+  font-family: "Fjalla One", sans-serif;
 }
-/* font name Cinzel */
 
 .fontQuicksand {
   font-family: "Quicksand", sans-serif;
 }
-/* font name : Quicksand */
 
 .fontMeddon {
-  font-family: 'Meddon', cursive;
+  font-family: "Meddon", cursive;
 }
-/* font name Meddon */
+
+.fontArchivoBlack {
+  font-family: "Archivo Black", sans-serif;
+}
