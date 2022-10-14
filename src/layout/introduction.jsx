@@ -23,7 +23,7 @@ const Introduction = () => {
             </div>
             {/* INT div2 */}
             <div className={styles.INTdiv2}>
-                <h2 className={styles.INTdiv2h2}>Bonjour! &#128075; Je suis<span className={styles.INTdiv2name}>Emir Gedikli</span></h2>
+                <h2 className={styles.INTdiv2h2}>Bonjour! Je suis<span className={styles.INTdiv2name}>Emir Gedikli</span></h2>
             </div>
             {/* INT div3 */}
             <div className={styles.INTdiv3}>
@@ -31,7 +31,7 @@ const Introduction = () => {
             </div>
             {/* INT div4 */}
             <div className={styles.INTdiv4}>
-                <p>Étant actuellement en formation au sein de l'Access Code School, en tant que futur développeur web &#127993; et web mobile. Je suis à la recherche d'opportunités pour mon stage qui démarrera le 9 janvier jusqu'à 3 mars 2023. Également j'aime jouer des instruments, chanter, composer et écrire des chansons et des poèmes. L'histoire et la littérature sont mes autres passe temps.</p>
+                <p>Étant actuellement en formation au sein de l'Access Code School, en tant que futur développeur web et web mobile. Je suis à la recherche d'opportunités pour mon stage qui démarrera le 9 janvier jusqu'à 3 mars 2023. Également j'aime jouer des instruments, chanter, composer et écrire des chansons et des poèmes. L'histoire et la littérature sont mes autres passe temps.</p>
             </div>
             {/* INT div5*/}
             <div className={styles.INTdiv5}>

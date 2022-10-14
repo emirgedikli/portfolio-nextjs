@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Header from '@src/layout/header'
 import Introduction from '@src/layout/introduction';
 import ViewCv from '@src/layout/ViewCv';
@@ -11,6 +12,9 @@ let styles = {
 const HomePage = () => {
     return (
         <div className={styles.HomeBody}>
+            <Head>
+                <title>Emir Gedikli</title>
+            </Head>
             <div className={styles.HomeBodyDiv1}>
                 <Header />
                 <Introduction />

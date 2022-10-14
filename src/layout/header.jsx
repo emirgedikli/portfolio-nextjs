@@ -4,9 +4,10 @@ let styles = {
     HDmain: "",
     HDdiv: "flex flex-col items-center text-black",
     HDdiv1h1: "py-4 fontMeddon text-white opacity-60 text-3xl",
-    HDdiv2: "flex justify-around text-lg fontNunito text-white opacity-90 py-4",
-    HDdiv2cv: "px-4",
-    HDdiv2contact: "font-black bg-blue-500 rounded-md px-2 opacity-100",
+    HDdiv2: "flex justify-around text-lg fontNunito text-white py-4",
+    HDdiv2acceuil: "opacity-90",
+    HDdiv2cv: "px-4 opacity-90 uppercase",
+    HDdiv2contact: "bg-blue-600 rounded-md px-2 font-medium",
     HDdiv2darkmode: "ml-6",
 };
 
@@ -21,7 +22,7 @@ const Header = () => {
                 </div>
                 {/* HD div2 */}
                 <div className={styles.HDdiv2}>
-                    <button>Accueil</button>
+                    <button className={styles.HDdiv2acceuil}>Accueil</button>
                     <button className={styles.HDdiv2cv}>cv</button>
                     <button className={styles.HDdiv2contact}>Contact</button>
                     <button><NightsStayIcon className={styles.HDdiv2darkmode} /></button>
