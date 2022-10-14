@@ -8,8 +8,8 @@ export default function Document() {
             {/* title */}
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-            <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet" />
-            {/* fontQuicksand */}
+            <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet" />
+            {/* fontNunito */}
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
             <link href="https://fonts.googleapis.com/css2?family=Meddon&display=swap" rel="stylesheet" />
@@ -21,7 +21,7 @@ export default function Document() {
             <link rel='stylesheet' href='https://unpkg.com/emoji.css/dist/emoji.min.css' />
             {/* emoji.css */}
             </Head>
-            <body className="bg-[#1f2937]">
+            <body>
                 <Main />
                 <NextScript />
             </body>

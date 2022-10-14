@@ -3,8 +3,8 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkIcon from '@mui/icons-material/Link';
 
 let styles = {
-    FTsection: "bg-[#374151] w-screen fontQuicksand text-white opacity-90",
-    FTdivA: "px-20 py-4",
+    FTsection: "bg-[#374151] fontNunito text-white opacity-90",
+    FTdivA: "px-16 py-4",
     FTdiv1: "flex pt-2 pb-3",
     FTdiv2: "flex pt-2",
     FTdiv2th6: "font-bold pr-2",

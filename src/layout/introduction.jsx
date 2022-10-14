@@ -7,9 +7,10 @@ let styles = {
     INTdiv1Profil: "rounded-3xl",
     INTdiv2: "pt-6 opacity-90",
     INTdiv2h2: "text-white text-lg",
-    INTdiv2emoji: "pl-1",
     INTdiv2name: "fontFjallaOne text-3xl font-bold text-[#db6e42] pl-2",
     INTdiv3: "fontArchivoBlack pt-6 text-3xl text-[#119ca3]",
+    INTdiv4: "text-sm fontNunito text-white pt-4 leading-loose",
+    INTdiv5: "pt-8",
 }
 
 const Introduction = () => {
@@ -22,17 +23,18 @@ const Introduction = () => {
             </div>
             {/* INT div2 */}
             <div className={styles.INTdiv2}>
-                <h2 className={styles.INTdiv2h2}>Bonjour<span className={styles.INTdiv2emoji}>
-                <span class="ec ec-wave"></span></span>!
-                Je suis<span className={styles.INTdiv2name}>Emir Gedikli</span></h2>
+                <h2 className={styles.INTdiv2h2}>Bonjour! &#128075; Je suis<span className={styles.INTdiv2name}>Emir Gedikli</span></h2>
             </div>
             {/* INT div3 */}
             <div className={styles.INTdiv3}>
                 <h1>Développeur Web Front-End</h1>
             </div>
             {/* INT div4 */}
-            <div>
-                
+            <div className={styles.INTdiv4}>
+                <p>Étant actuellement en formation au sein de l'Access Code School, en tant que futur développeur web &#127993; et web mobile. Je suis à la recherche d'opportunités pour mon stage qui démarrera le 9 janvier jusqu'à 3 mars 2023. Également j'aime jouer des instruments, chanter, composer et écrire des chansons et des poèmes. L'histoire et la littérature sont mes autres passe temps.</p>
+            </div>
+            {/* INT div5*/}
+            <div className={styles.INTdiv5}>
             </div>
         </section>
     )
