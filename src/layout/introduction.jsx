@@ -31,7 +31,7 @@ const Introduction = () => {
             </div>
             {/* INT div4 */}
             <div className={styles.INTdiv4}>
-                <p>Étant actuellement en formation au sein de l'Access Code School, en tant que futur développeur web et web mobile. Je suis à la recherche d'opportunités pour mon stage qui démarrera le 9 janvier jusqu'à 3 mars 2023. Également j'aime jouer des instruments, chanter, composer et écrire des chansons et des poèmes. L'histoire et la littérature sont mes autres passe temps.</p>
+                <p>Étant actuellement en formation au sein de l&apos;Access Code School, en tant que futur développeur web et web mobile. Je suis à la recherche d&apos;opportunités pour mon stage qui démarrera le 9 janvier jusqu&apos;à 3 mars 2023. Également j&apos;aime jouer des instruments, chanter, composer et écrire des chansons et des poèmes. L&apos;histoire et la littérature sont mes autres passe temps.</p>
             </div>
             {/* INT div5*/}
             <div className={styles.INTdiv5}>
