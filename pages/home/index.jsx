@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Header from '@src/layout/header'
 import Introduction from '@src/layout/introduction';
 import ViewCv from '@src/layout/ViewCv';
+import MyWorks from '@src/layout/MyWorks';
+import MyProjects from '@src/layout/MyProjects';
 import Footer from '@src/layout/footer'
 
 let styles = {
@@ -19,6 +21,8 @@ const HomePage = () => {
                 <Header />
                 <Introduction />
                 <ViewCv />
+                <MyWorks />
+                <MyProjects />
             </div>
             <Footer />
         </div>
