@@ -1,6 +1,4 @@
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkIcon from '@mui/icons-material/Link';
+import Links from '@src/layout/Links'
 
 let styles = {
     FTsection: "bg-[#374151] fontNunito text-white opacity-90",
@@ -10,11 +8,7 @@ let styles = {
     FTdiv2th6: "font-bold pr-2",
     FTdiv3: "flex pt-1",
     FTdiv3th6: "font-bold pr-2",
-    FTdivB: "",
-    FTdiv4: "flex justify-center pb-4 opacity-75",
-    FTdiv5: "",
-    FTdiv6: "px-4",
-    FTdiv7: "",
+    FTdiv4: "pt-6"
 }
 
 const Footer = () => {
@@ -37,25 +31,11 @@ const Footer = () => {
                 {/* FT div3 */}
                 <div className={styles.FTdiv3}>
                     <h6 className={styles.FTdiv3th6}>E-mail:</h6>
-                    <a href="mailto:emirwtaha@gmail.com">emirwtaha@gmail.com</a>
+                    <a href="mailto:emirwtaha@gmail.com" rel ="noreferrer" target="_blank">emirwtaha@gmail.com</a>
                 </div>
-            </div>
-            {/* FT divB */}
-            <div>
-                {/* FT div 4 */}
+                {/* FT div4 */}
                 <div className={styles.FTdiv4}>
-                    {/* FT div 5 */}
-                    <div className={styles.FTdiv5}>
-                        <a href="https://github.com/emirgedikli"><GitHubIcon sx={{ fontSize: 40 }} /></a>
-                    </div>
-                    {/* FT div 6 */}
-                    <div className={styles.FTdiv6}>
-                        <a href="#"><LinkIcon sx={{ fontSize: 40 }} /></a>
-                    </div>
-                    {/* FT div 7 */}
-                    <div className={styles.FTdiv7}>
-                        <a href="http://www.linkedin.com/in/emirgedikli"><LinkedInIcon sx={{ fontSize: 40 }} /></a>
-                    </div>
+                    <Links />
                 </div>
             </div>
         </section>

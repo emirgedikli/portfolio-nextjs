@@ -18,7 +18,7 @@ const Header = () => {
             <div className={styles.HDdiv}>
                 {/* HD div1 */}
                 <div className={styles.HDdiv1h1}>
-                    <a href="#"><h1>Emir Gedikli</h1></a>
+                    <a href="/"><h1>Emir Gedikli</h1></a>
                 </div>
                 {/* HD div2 */}
                 <div className={styles.HDdiv2}>
