@@ -7,10 +7,10 @@ let styles = {
     MSdiv: "",
     MSdiv1: "flex justify-center items-center bg-transparent animate-bounce text-2xl text-gray-500",
     MSdiv2: "font-bold text-white text-center text-4xl opacity-70",
-    MSdiv3: "",
-    MSdiv3divA: "bg-[#374151] rounded-full mx-24 py-8 my-12",
-    MSdiv3divAdivImage1: "flex justify-center",
-    MSdiv3divAdivh3: "flex justify-center uppercase text-white opacity-50 pt-4",
+    MSdiv3: "flex justify-center",
+    MSdiv3divA: "bg-[#374151] rounded-full my-10 p-8 w-48 h-48",
+    MSdiv3divAdivImage1: "flex justify-center py-6",
+    MSdiv3divAdivh3: "flex justify-center uppercase text-white opacity-50",
 }
 
 let MyWorks = () => {
