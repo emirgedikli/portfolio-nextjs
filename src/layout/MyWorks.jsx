@@ -31,7 +31,7 @@ let MyWorks = () => {
                 <div id='skills' className={styles.MSdiv3}>
                     <div className={styles.MSdiv3divA}>
                         <div className={styles.MSdiv3divAdivImage1}>
-                            <Image src={Html} alt="php" height={50} width={80} />
+                            <Image src={Html} alt="php" height={50} width={60} />
                         </div>
                         <div className={styles.MSdiv3divAdivh3}>
                             <h3>html</h3>
