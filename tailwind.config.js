@@ -13,6 +13,7 @@ module.exports = {
         greyChrome: "#374151",
         orange70: "#db6e42",
         blueAzur: "#119ca3",
+        blueGrey: "#374151",
       },
     },
   },
