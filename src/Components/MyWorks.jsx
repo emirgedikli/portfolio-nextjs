@@ -1,5 +1,5 @@
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import Carousel from '@src/layout/Carousel'
+import Carousel from '@src/Components/Carousel'
 
 let styles = {
     MSdiv: "",

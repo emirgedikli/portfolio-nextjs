@@ -1,4 +1,4 @@
-import Links from '@src/layout/Links'
+import Links from '@src/Components/Links'
 
 let styles = {
     FTh6: "font-bold pr-2",

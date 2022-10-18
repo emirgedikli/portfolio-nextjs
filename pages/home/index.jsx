@@ -1,10 +1,10 @@
 import Head from 'next/head';
-import Header from '@src/layout/header'
-import Introduction from '@src/layout/introduction';
-import ViewCv from '@src/layout/ViewCv';
-import MyWorks from '@src/layout/MyWorks';
-import MyProjects from '@src/layout/MyProjects';
-import Footer from '@src/layout/footer'
+import Header from '@src/Components/header'
+import Introduction from '@src/Components/introduction';
+import ViewCv from '@src/Components/ViewCv';
+import MyWorks from '@src/Components/MyWorks';
+import MyProjects from '@src/Components/MyProjects';
+import Footer from '@src/Components/footer'
 
 let styles = {
     HomeBody: "bg-[#1f2937] min-h-screen min-w-screen",
