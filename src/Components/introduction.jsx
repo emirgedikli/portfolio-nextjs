@@ -2,7 +2,7 @@ import Image from 'next/image'
 import profil from '@src/assets/img/profil.png'
 
 let styles = {
-    INTsection: "flex flex-col",
+    INTdiv: "flex flex-col",
     INTdiv1: "flex justify-center",
     INTdiv1Profil: "rounded-3xl",
     INTdiv2: "pt-6 opacity-90",
@@ -15,8 +15,8 @@ let styles = {
 
 const Introduction = () => {
     return (
-        // INT section
-        <section className={styles.INTsection}>
+        // INT div
+        <div className={styles.INTdiv}>
             {/* INT div1 */}
             <div className={styles.INTdiv1}>
                 <Image src={profil} alt="profil" className={styles.INTdiv1Profil} />
@@ -36,7 +36,7 @@ const Introduction = () => {
             {/* INT div5*/}
             <div className={styles.INTdiv5}>
             </div>
-        </section>
+        </div>
     )
 }
 

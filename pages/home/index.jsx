@@ -1,10 +1,10 @@
 import Head from 'next/head';
-import Header from '@src/Components/header'
+import Navbar from '@src/Components/navbar'
 import Introduction from '@src/Components/introduction';
-import ViewCv from '@src/Components/ViewCv';
-import MyWorks from '@src/Components/MyWorks';
-import MyProjects from '@src/Components/MyProjects';
-import Footer from '@src/Components/footer'
+import ViewCv from '@src/Components/viewCV';
+import Works from '@src/Components/works';
+import Projects from '@src/Components/projects';
+import Informations from '@src/Components/informations'
 
 let styles = {
     HomeBody: "bg-[#1f2937] min-h-screen min-w-screen",
@@ -18,13 +18,13 @@ const HomePage = () => {
                 <title>Emir Gedikli</title>
             </Head>
             <div className={styles.HomeBodyDiv1}>
-                <Header />
+                <Navbar />
                 <Introduction />
                 <ViewCv />
-                <MyWorks />
-                <MyProjects />
+                <Works />
+                <Projects />
             </div>
-            <Footer />
+            <Informations />
         </div>
     )
 }
