@@ -11,6 +11,8 @@ import Nextjs from '@src/assets/img/Nextjs.png';
 import Php from '@src/assets/img/Php.png';
 import Sql from '@src/assets/img/Sql.png';
 import Nodejs from '@src/assets/img/Nodejs.png';
+import Git from '@src/assets/img/Git.png'
+import Npm from '@src/assets/img/Npm.png'
 
 let styles = {
     CLImage: "flex justify-center py-6",
@@ -25,7 +27,7 @@ let Carousel = () => {
                     <div class="carousel-item active relative float-left w-full">
                         <div class="bg-[#374151] rounded-full my-10 p-8 w-48 h-48">
                             <div className={styles.CLImage}>
-                                <Image src={Html} alt="Html" height={50} width={50}/>
+                                <Image src={Html} alt="Html" height={50} width={60}/>
                             </div>
                             <div>
                                 <h3 className={styles.CLskills}>Html</h3>
@@ -45,7 +47,7 @@ let Carousel = () => {
                     <div class="carousel-item relative float-left w-full">
                         <div class="bg-[#374151] rounded-full my-10 p-8 w-48 h-48">
                             <div className={styles.CLImage}>
-                                <Image src={Javascript} alt="Javascript" height={50} width={50}/>
+                                <Image src={Javascript} alt="Javascript" height={50} width={70}/>
                             </div>
                             <div>
                                 <h3 className={styles.CLskills}>Javascript</h3>
@@ -65,7 +67,7 @@ let Carousel = () => {
                     <div class="carousel-item relative float-left w-full">
                         <div class="bg-[#374151] rounded-full my-10 p-8 w-48 h-48">
                             <div className={styles.CLImage}>
-                                <Image src={Bootstrap} alt="Bootstrap" height={50} width={50}/>
+                                <Image src={Bootstrap} alt="Bootstrap" height={50} width={70}/>
                             </div>
                             <div>
                                 <h3 className={styles.CLskills}>Bootstrap</h3>
@@ -95,7 +97,7 @@ let Carousel = () => {
                     <div class="carousel-item relative float-left w-full">
                         <div class="bg-[#374151] rounded-full my-10 p-8 w-48 h-48">
                             <div className={styles.CLImage}>
-                                <Image src={Reactjs} alt="Reactjs" height={50} width={50}/>
+                                <Image src={Reactjs} alt="Reactjs" height={50} width={60}/>
                             </div>
                             <div>
                                 <h3 className={styles.CLskills}>Reactjs</h3>
@@ -105,7 +107,7 @@ let Carousel = () => {
                     <div class="carousel-item relative float-left w-full">
                         <div class="bg-[#374151] rounded-full my-10 p-8 w-48 h-48">
                             <div className={styles.CLImage}>
-                                <Image src={Nextjs} alt="Nextjs" height={50} width={50}/>
+                                <Image src={Nextjs} alt="Nextjs" height={50} width={60}/>
                             </div>
                             <div>
                                 <h3 className={styles.CLskills}>Nextjs</h3>
@@ -115,7 +117,7 @@ let Carousel = () => {
                     <div class="carousel-item relative float-left w-full">
                         <div class="bg-[#374151] rounded-full my-10 p-8 w-48 h-48">
                             <div className={styles.CLImage}>
-                                <Image src={Php} alt="Php" height={50} width={50}/>
+                                <Image src={Php} alt="Php" height={50} width={70}/>
                             </div>
                             <div>
                                 <h3 className={styles.CLskills}>Php</h3>
@@ -125,7 +127,7 @@ let Carousel = () => {
                     <div class="carousel-item relative float-left w-full">
                         <div class="bg-[#374151] rounded-full my-10 p-8 w-48 h-48">
                             <div className={styles.CLImage}>
-                                <Image src={Sql} alt="Sql" height={50} width={50}/>
+                                <Image src={Sql} alt="Sql" height={40} width={70}/>
                             </div>
                             <div>
                                 <h3 className={styles.CLskills}>Sql</h3>
@@ -135,10 +137,30 @@ let Carousel = () => {
                     <div class="carousel-item relative float-left w-full">
                         <div class="bg-[#374151] rounded-full my-10 p-8 w-48 h-48">
                             <div className={styles.CLImage}>
-                                <Image src={Nodejs} alt="Nodejs" height={50} width={50}/>
+                                <Image src={Nodejs} alt="Nodejs" height={50} width={80}/>
                             </div>
                             <div>
                                 <h3 className={styles.CLskills}>Nodejs</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item relative float-left w-full">
+                        <div class="bg-[#374151] rounded-full my-10 p-8 w-48 h-48">
+                            <div className={styles.CLImage}>
+                                <Image src={Npm} alt="Npm" height={50} width={80}/>
+                            </div>
+                            <div>
+                                <h3 className={styles.CLskills}>Npm</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item relative float-left w-full">
+                        <div class="bg-[#374151] rounded-full my-10 p-8 w-48 h-48">
+                            <div className={styles.CLImage}>
+                                <Image src={Git} alt="Git" height={50} width={50}/>
+                            </div>
+                            <div>
+                                <h3 className={styles.CLskills}>Git</h3>
                             </div>
                         </div>
                     </div>
