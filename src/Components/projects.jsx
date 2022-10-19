@@ -1,5 +1,3 @@
-import 'animate.css';
-
 let styles = {
     MPdiv: "",
     MPdiv1: "",

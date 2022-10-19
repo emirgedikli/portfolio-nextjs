@@ -17,7 +17,7 @@ let Works = () => {
             <div className={styles.MSdiv1}>
                 {/* MS div 2 */}
                 <div className={styles.MSdiv2}>
-                    <a href="#skills"><ExpandMoreIcon sx={{ fontSize: 50 }} /></a>
+                    <a href="#"><ExpandMoreIcon sx={{ fontSize: 50 }} /></a>
                 </div>
                 {/* MS div 3 */}
                 <div className={styles.MSdiv3}>
