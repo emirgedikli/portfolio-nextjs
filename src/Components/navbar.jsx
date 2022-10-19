@@ -5,6 +5,9 @@ let styles = {
     HDdiv1: "flex flex-col items-center text-black",
     HDdiv2: "py-4 fontMeddon text-white opacity-60 text-3xl",
     HDdiv3: "flex justify-around text-lg fontNunito text-white py-4",
+    HDaccueil: "opacity-90",
+    HDcv: "px-4 opacity-90 uppercase",
+    HDcontact: "bg-blue-600 rounded-md px-2 font-medium",
     HDdarkmode: "ml-4",
 };
 
@@ -20,9 +23,9 @@ const Navbar = () => {
                 </div>
                 {/* HD div 3 */}
                 <div className={styles.HDdiv3}>
-                    <button class="opacity-90">Accueil</button>
-                    <button class="px-4 opacity-90 uppercase">cv</button>
-                    <button class="bg-blue-600 rounded-md px-2 font-medium">Contact</button>
+                    <button className={styles.HDaccueil}>Accueil</button>
+                    <button className={styles.HDcv}>cv</button>
+                    <button className={styles.HDcontact}>Contact</button>
                     <button><NightsStayIcon className={styles.HDdarkmode} /></button>
                 </div>
             </div>
