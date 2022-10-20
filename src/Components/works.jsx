@@ -24,7 +24,7 @@ let Works = () => {
         </div>
         {/* MS div 3 */}
         <div className={styles.MSdiv3}>
-          <h1>Compétences</h1>
+          <h1>Compétences</h1> 
         </div>
         {/* MS div 4 */}
         <div className={styles.MSdiv4}>
