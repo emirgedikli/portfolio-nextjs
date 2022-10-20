@@ -4,6 +4,7 @@ import Introduction from "@src/Components/introduction";
 import ViewCv from "@src/Components/viewCV";
 import Works from "@src/Components/works";
 import Projects from "@src/Components/projects";
+import ProjectStepper from "@src/Components/ProjectStepper"
 import Informations from "@src/Components/informations";
 
 let styles = {
@@ -22,6 +23,7 @@ const HomePage = () => {
         <Introduction />
         <Works />
         <Projects />
+        <ProjectStepper />
       </div>
       <Informations />
     </div>

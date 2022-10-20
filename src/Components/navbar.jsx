@@ -1,3 +1,4 @@
+import Link from "next/link";
 import NightsStayIcon from "@mui/icons-material/NightsStay";
 
 let styles = {
@@ -5,10 +6,9 @@ let styles = {
   HDdiv1: "flex flex-col items-center text-black lg:grid lg:grid-cols-2",
   HDdiv2: "py-4 fontMeddon text-white opacity-60 text-3xl lg:flex lg:justify-center lg:text-4xl",
   HDdiv3: "flex justify-around text-lg fontNunito text-white py-4 lg:flex lg:justify-center lg:text-2xl",
-  HDaccueil: "opacity-90 lg:mr-10",
-  HDcv: "px-4 opacity-90 uppercase",
-  HDcontact: "bg-blue-600 rounded-md px-2 font-medium lg:mx-10",
-  HDdarkmode: "ml-4",
+  HDac: "opacity-90 lg:mr-10",
+  HDcv: "px-8 uppercase font-medium lg:mx-10",
+  HDdm: "lg:ml-10",
 };
 
 const Navbar = () => {
@@ -19,15 +19,20 @@ const Navbar = () => {
       <div className={styles.HDdiv1}>
         {/* HD div 2 */}
         <div className={styles.HDdiv2}>
-          <h1>Emir Gedikli</h1>
+          <Link href={"https://gedikli-portfolio.netlify.app/"}>
+            <h1>Emir Gedikli</h1>
+          </Link>
         </div>
         {/* HD div 3 */}
         <div className={styles.HDdiv3}>
-          <button className={styles.HDaccueil}>Accueil</button>
-          <button className={styles.HDcv}>cv</button>
-          <button className={styles.HDcontact}>Contact</button>
+          <Link href={"https://gedikli-portfolio.netlify.app/"}>
+            <button className={styles.HDac}>Accueil</button>
+          </Link>
+          <Link href={"https://cv-emir.netlify.app/"}>
+            <button className={styles.HDcv}>cv</button>
+          </Link>
           <button>
-            <NightsStayIcon className={styles.HDdarkmode} />
+            <NightsStayIcon className={styles.HDdm} />
           </button>
         </div>
       </div>
