@@ -7,8 +7,8 @@ let styles = {
   HDdiv2: "py-4 fontMeddon text-white opacity-60 text-3xl lg:flex lg:justify-center lg:text-4xl",
   HDdiv3: "flex justify-around text-lg fontNunito text-white py-4 lg:flex lg:justify-center lg:text-2xl",
   HDac: "opacity-90 lg:mr-10",
-  HDcv: "px-8 uppercase font-medium lg:mx-10",
-  HDdm: "lg:ml-10",
+  HDcv: "opacity-90 px-8 font-medium lg:mx-10",
+  HDdm: "opacity-90 mb-1 lg:ml-10",
 };
 
 const Navbar = () => {
@@ -29,7 +29,7 @@ const Navbar = () => {
             <button className={styles.HDac}>Accueil</button>
           </Link>
           <Link href={"https://cv-emir.netlify.app/"}>
-            <button className={styles.HDcv}>cv</button>
+            <button className={styles.HDcv}>Infos</button>
           </Link>
           <button>
             <NightsStayIcon className={styles.HDdm} />

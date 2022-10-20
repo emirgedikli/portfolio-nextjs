@@ -1,11 +1,11 @@
 import Head from "next/head";
 import Navbar from "@src/Components/navbar";
-import Introduction from "@src/Components/introduction";
-import ViewCv from "@src/Components/viewCV";
-import Works from "@src/Components/works";
+import Introduction from "@src/Components/intro";
+import ViewCv from "@src/Components/view";
+import Works from "@src/Components/titles";
 import Projects from "@src/Components/projects";
-import ProjectStepper from "@src/Components/ProjectStepper"
-import Informations from "@src/Components/informations";
+import projectStepper from "@src/Components/stepper";
+import Informations from "@src/Components/infos";
 
 let styles = {
   HomeBody: "bg-[#1f2937] min-h-screen min-w-screen",
@@ -23,7 +23,7 @@ const HomePage = () => {
         <Introduction />
         <Works />
         <Projects />
-        <ProjectStepper />
+        <projectStepper />
       </div>
       <Informations />
     </div>

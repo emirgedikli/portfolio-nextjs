@@ -1,4 +1,4 @@
-let ProjectStepper = () => {
+let projectStepper = () => {
   <div class="text-white my-10">
     <ul
       class="stepper"
@@ -39,4 +39,4 @@ let ProjectStepper = () => {
   </div>;
 };
 
-export default ProjectStepper;
+export default projectStepper;

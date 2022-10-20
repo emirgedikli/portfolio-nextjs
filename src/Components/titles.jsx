@@ -1,14 +1,14 @@
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import Carousel from "@src/Components/competences";
+import Carousel from "@src/Components/skills";
 
 let styles = {
   MSdiv: "lg:mt-20",
   MSdiv1: "",
   MSdiv2:
     "flex justify-center items-center bg-transparent animate-bounce text-2xl text-gray-500",
-  MSdiv3: "font-bold text-white text-center text-4xl opacity-70",
+  MSdiv3: "py-12 font-bold text-white text-center text-4xl opacity-70",
   MSdiv4: "",
-  MSdiv5: "pb-12 font-bold text-white text-center text-4xl opacity-70",
+  MSdiv5: "py-12 font-bold text-white text-center text-4xl opacity-70",
 };
 
 let Works = () => {
