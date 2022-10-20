@@ -3,16 +3,16 @@ import profil from "@src/assets/img/profil.png";
 import ViewCV from "@src/Components/viewCV"
 
 let styles = {
-  INTdiv: "flex flex-col lg:grid lg:grid-cols-2 lg:mt-24",
+  INTdiv: "flex flex-col lg:grid lg:grid-cols-2 lg:mt-24 lg:mr-28",
   LGleftColumn: "",
-  LGRightColumn: "lg:mt-16",
+  LGRightColumn: "",
   INTdiv1: "flex justify-center",
   INTdiv1Profil: "rounded-3xl",
   INTdiv2: "pt-6 opacity-90",
-  INTdiv2h2: "text-white text-lg",
-  INTdiv2name: "fontFjallaOne text-3xl font-bold text-[#db6e42] pl-2",
-  INTdiv3: "fontArchivoBlack pt-6 text-3xl text-[#119ca3]",
-  INTdiv4: "text-sm fontNunito text-white pt-4 leading-loose",
+  INTdiv2h2: "text-white text-lg lg:text-3xl",
+  INTdiv2name: "fontFjallaOne text-3xl font-bold text-[#db6e42] pl-2 lg:text-5xl",
+  INTdiv3: "fontArchivoBlack pt-6 text-3xl text-[#119ca3] lg:text-7xl",
+  INTdiv4: "text-sm fontNunito text-white pt-4 leading-loose lg:text-2xl",
   INTdiv5: "pt-8",
 };
 
