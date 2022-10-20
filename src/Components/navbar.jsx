@@ -3,8 +3,8 @@ import NightsStayIcon from "@mui/icons-material/NightsStay";
 let styles = {
   HDdiv: "",
   HDdiv1: "flex flex-col items-center text-black lg:grid lg:grid-cols-2",
-  HDdiv2: "py-4 fontMeddon text-white opacity-60 text-3xl lg:flex lg:justify-center",
-  HDdiv3: "flex justify-around text-lg fontNunito text-white py-4 lg:flex lg:justify-center",
+  HDdiv2: "py-4 fontMeddon text-white opacity-60 text-3xl lg:flex lg:justify-center lg:text-4xl",
+  HDdiv3: "flex justify-around text-lg fontNunito text-white py-4 lg:flex lg:justify-center lg:text-2xl",
   HDaccueil: "opacity-90 lg:mr-10",
   HDcv: "px-4 opacity-90 uppercase",
   HDcontact: "bg-blue-600 rounded-md px-2 font-medium lg:mx-10",
