@@ -2,8 +2,8 @@ import Head from "next/head";
 import Header from "@src/Components/Header";
 import Introduction from "@src/Components/Introduction";
 import ViewBtn from "@src/Components/ViewBtn";
-import Titles from "@src/Components/Titles";
-import Projects from "@src/Components/Projects";
+// import Titles from "@src/Components/Titles";
+// import Projects from "@src/Components/Projects";
 import Footer from "@src/Components/Footer";
 
 let styles = {
@@ -19,8 +19,8 @@ const HomePage = () => {
       <div className={styles.body}>
         <Header />
         <Introduction />
-        <Titles />
-        <Projects />
+        {/* <Titles /> */}
+        {/* <Projects /> */}
       </div>
       <Footer />
     </>
