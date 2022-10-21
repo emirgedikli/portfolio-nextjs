@@ -3,7 +3,7 @@ import profil from "@src/assets/img/profil.png";
 import ViewBtn from "@src/components/viewbtn/index";
 
 let styles = {
-  INTdiv: "flex flex-col lg:grid lg:grid-cols-2 lg:mt-24 lg:mr-28",
+  INTdiv: "flex flex-col lg:grid lg:grid-cols-2 lg:mt-36 lg:mr-28",
   LGleftColumn: "",
   LGRightColumn: "",
   INTdiv1: "flex justify-center relative overflow-hidden bg-no-repeat bg-cover",
