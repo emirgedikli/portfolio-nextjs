@@ -1,9 +1,9 @@
-import Links from "@src/Components/links";
+import Links from "@src/Components/Links";
 
 let styles = {
-  FTdiv: "bg-[#374151] fontNunito text-white opacity-90",
+  FTdiv: "bg-[#1f2937] fontNunito text-white opacity-90",
   FTdiv01: "px-16 py-4 lg:grid lg:grid-cols-2",
-  FTdiv1 :"lg:py-4 lg:pl-72",
+  FTdiv1: "lg:py-4 lg:pl-72",
   FTdiv2: "flex pt-2 pb-3",
   FTdiv3: "flex pt-2",
   FTdiv4: "flex pt-1",
@@ -12,10 +12,10 @@ let styles = {
   FThr: "w-64 lg:w-64",
 };
 
-const InfoPerso = () => {
+const Footer = () => {
   return (
     // FT div
-    <div className={styles.FTdiv}>
+    <footer className={styles.FTdiv}>
       {/* FT div 01 */}
       <div className={styles.FTdiv01}>
         {/* FT div 1 */}
@@ -47,8 +47,8 @@ const InfoPerso = () => {
           <Links />
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 
-export default InfoPerso;
+export default Footer;

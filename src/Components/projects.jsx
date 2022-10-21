@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
-import PmazeBank from "@src/assets/img/PmazeBank.png";
-import PmetaCode from "@src/assets/img/PmetaCode.png";
-import PintWireframe from "@src/assets/img/PintWireframe.png";
+import MazeBank from "@src/assets/img/MazeBank.png";
+import MetaCode from "@src/assets/img/MetaCode.png";
+import Wireframe from "@src/assets/img/Wireframe.png";
 
 let styles = {
   MPImages: "block w-full flex justify-center",
@@ -47,7 +47,7 @@ let Projects = () => {
           <div className={styles.MPImages}>
             <Link href={"https://blue-mazebank.netlify.app/"}>
               <Image
-                src={PmazeBank}
+                src={MazeBank}
                 height={800}
                 width={1400}
                 title="cliquez pour accéder à la page"
@@ -59,7 +59,7 @@ let Projects = () => {
           <div className={styles.MPImages}>
             <Link href={"https://meta-code.netlify.app/"}>
               <Image
-                src={PmetaCode}
+                src={MetaCode}
                 height={800}
                 width={1400}
                 title="cliquez pour accéder à la page"
@@ -71,7 +71,7 @@ let Projects = () => {
           <div className={styles.MPImages}>
             <Link href={"https://integration-wireframe.netlify.app/"}>
               <Image
-                src={PintWireframe}
+                src={Wireframe}
                 height={800}
                 width={1400}
                 title="cliquez pour accéder à la page"

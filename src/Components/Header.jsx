@@ -11,10 +11,10 @@ let styles = {
   HDdm: "opacity-90 mb-1 lg:ml-10",
 };
 
-const Navbar = () => {
+const Header = () => {
   return (
     // HDdiv
-    <div className={styles.HDdiv}>
+    <header className={styles.HDdiv}>
       {/* HD div 1 */}
       <div className={styles.HDdiv1}>
         {/* HD div 2 */}
@@ -36,8 +36,8 @@ const Navbar = () => {
           </button>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 
-export default Navbar;
+export default Header;

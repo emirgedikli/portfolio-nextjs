@@ -1,6 +1,6 @@
 import Image from "next/image";
 import profil from "@src/assets/img/profil.png";
-import ViewCV from "@src/Components/view";
+import ViewBtn from "@src/Components/ViewBtn";
 
 let styles = {
   INTdiv: "flex flex-col lg:grid lg:grid-cols-2 lg:mt-24 lg:mr-28",
@@ -60,7 +60,7 @@ const Introduction = () => {
         </div>
         {/* INT div5*/}
         <div className={styles.INTdiv5}>
-          <ViewCV />
+          <ViewBtn />
         </div>
       </div>
     </div>
