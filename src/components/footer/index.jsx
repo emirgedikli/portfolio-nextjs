@@ -14,23 +14,17 @@ let styles = {
 
 const Footer = () => {
   return (
-    // FT div
     <footer className={styles.FTdiv}>
-      {/* FT div 01 */}
       <div className={styles.FTdiv01}>
-        {/* FT div 1 */}
         <div className={styles.FTdiv1}>
-          {/* FT div 2 */}
           <div className={styles.FTdiv2}>
             <h4>Contactez-moi:</h4>
           </div>
           <hr className={styles.FThr} />
-          {/* FT div 3 */}
           <div className={styles.FTdiv3}>
             <h6 className={styles.FTh6}>Tel:</h6>
             <a href="tel:+33767245024">+33767245024</a>
           </div>
-          {/* FT div 4 */}
           <div className={styles.FTdiv4}>
             <h6 className={styles.FTh6}>E-mail:</h6>
             <a
@@ -42,7 +36,6 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        {/* FT div 5 */}
         <div className={styles.FTdiv5}>
           <Links />
         </div>

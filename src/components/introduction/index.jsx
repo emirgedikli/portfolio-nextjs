@@ -20,11 +20,9 @@ let styles = {
 
 const Introduction = () => {
   return (
-    // INT div
     <div className={styles.INTdiv}>
       {/* lg: left column */}
       <div className={styles.LGleftColumn}>
-        {/* INT div1 */}
         <div className={styles.INTdiv1}>
           <Image
             src={profil}
@@ -38,18 +36,15 @@ const Introduction = () => {
       </div>
       {/* lg: right column */}
       <div className={styles.LGRightColumn}>
-        {/* INT div2 */}
         <div className={styles.INTdiv2}>
           <h2 className={styles.INTdiv2h2}>
             Bonjour! Je suis
             <span className={styles.INTdiv2name}>Emir Gedikli</span>
           </h2>
         </div>
-        {/* INT div3 */}
         <div className={styles.INTdiv3}>
           <h1>Développeur Web Front-End</h1>
         </div>
-        {/* INT div4 */}
         <div className={styles.INTdiv4}>
           <p>
             Étant actuellement en formation au sein de l&apos;Access Code
@@ -58,7 +53,6 @@ const Introduction = () => {
             janvier jusqu&apos;à 3 mars 2023.
           </p>
         </div>
-        {/* INT div5*/}
         <div className={styles.INTdiv5}>
           <ViewBtn />
         </div>

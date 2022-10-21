@@ -13,11 +13,8 @@ let styles = {
 
 const Links = () => {
   return (
-    // LK div
     <div>
-      {/* LK div 1 */}
       <div className={styles.LKdiv1}>
-        {/* LK div 2 */}
         <div className={styles.LKdiv2}>
           <Link
             href="https://github.com/emirgedikli"
@@ -29,7 +26,6 @@ const Links = () => {
             </a>
           </Link>
         </div>
-        {/* LK div 3 */}
         <div className={styles.LKdiv3}>
           <Link
             href="http://www.linkedin.com/in/emirgedikli"
@@ -41,7 +37,6 @@ const Links = () => {
             </a>
           </Link>
         </div>
-        {/* LK div 4 */}
         <div className={styles.LKdiv4}>
           <a href="tel:0033767245024" rel="noreferrer" target="_blank">
             <WhatsAppIcon sx={{ fontSize: 40 }} />

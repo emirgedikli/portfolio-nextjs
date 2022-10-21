@@ -4,7 +4,7 @@ import Introduction from "@src/components/introduction/index";
 import Footer from "@src/components/footer/index";
 
 let styles = {
-  body: "bg-[#1f2937] min-h-screen min-w-screen py-6 px-10",
+  body: "bg-[#1f2937] min-h-screen min-w-screen py-10 px-10",
 };
 
 const HomePage = () => {

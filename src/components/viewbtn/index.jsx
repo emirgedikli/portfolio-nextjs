@@ -1,5 +1,3 @@
-import Links from "@src/components/links";
-
 let styles = {
   VWdiv: "",
   VWdiv1: "",
@@ -10,9 +8,7 @@ let styles = {
 
 const ViewBtn = () => {
   return (
-    // VW div
     <div>
-      {/* VW div 1 */}
       <div className={styles.VWdiv1}>
         <a
           href="https://cv-emir.netlify.app/"
@@ -22,10 +18,6 @@ const ViewBtn = () => {
         >
           Voir CV
         </a>
-      </div>
-      {/* VW div 2 */}
-      <div className={styles.VWdiv2}>
-        <Links />
       </div>
     </div>
   );
