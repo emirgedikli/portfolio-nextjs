@@ -1,4 +1,4 @@
-import Links from "@src/components/links/index";
+import Links from "@src/components/links";
 
 let styles = {
   VWdiv: "",

@@ -1,8 +1,6 @@
 import Head from "next/head";
 import Header from "@src/components/header/index";
 import Introduction from "@src/components/introduction/index";
-import Titles from "@src/components/titles/index";
-import Projects from "@src/components/projects/index";
 import Footer from "@src/components/footer/index";
 
 let styles = {
@@ -18,8 +16,6 @@ const HomePage = () => {
       <div className={styles.body}>
         <Header />
         <Introduction />
-        <Titles />
-        <Projects />
       </div>
       <Footer />
     </>
