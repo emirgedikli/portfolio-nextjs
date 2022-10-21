@@ -4,11 +4,8 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 let styles = {
-  LKdiv: "",
   LKdiv1: "flex justify-center pb-4 opacity-75",
-  LKdiv2: "",
   LKdiv3: "px-4",
-  LKdiv4: "",
 };
 
 const Links = () => {

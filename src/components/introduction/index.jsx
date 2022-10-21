@@ -4,8 +4,6 @@ import ViewBtn from "@src/components/viewbtn/index";
 
 let styles = {
   INTdiv: "flex flex-col lg:grid lg:grid-cols-2 lg:mt-36 lg:mr-28",
-  LGleftColumn: "",
-  LGRightColumn: "",
   INTdiv1: "flex justify-center relative overflow-hidden bg-no-repeat bg-cover",
   INTdiv1Profil:
     "rounded-3xl max-w-xs hover:scale-110 transition duration-300 ease-in-out",
@@ -22,7 +20,7 @@ const Introduction = () => {
   return (
     <div className={styles.INTdiv}>
       {/* lg: left column */}
-      <div className={styles.LGleftColumn}>
+      <div>
         <div className={styles.INTdiv1}>
           <Image
             src={profil}
@@ -35,7 +33,7 @@ const Introduction = () => {
         </div>
       </div>
       {/* lg: right column */}
-      <div className={styles.LGRightColumn}>
+      <div>
         <div className={styles.INTdiv2}>
           <h2 className={styles.INTdiv2h2}>
             Bonjour! Je suis
