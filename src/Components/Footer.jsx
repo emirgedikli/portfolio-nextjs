@@ -1,4 +1,4 @@
-import Links from "@src/Components/Links";
+import Links from "@src/Components/links";
 
 let styles = {
   FTdiv: "bg-[#1f2937] fontNunito text-white opacity-90",
