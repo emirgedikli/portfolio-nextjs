@@ -4,15 +4,15 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 let styles = {
-  LKdiv1: "flex justify-center pb-4 opacity-75",
-  LKdiv3: "px-4",
+  section: "flex justify-center pb-4 opacity-75",
+  div2: "px-4",
 };
 
 const Links = () => {
   return (
-    <div>
-      <div className={styles.LKdiv1}>
-        <div className={styles.LKdiv2}>
+    <>
+      <section className={styles.section}>
+        <div>
           <Link
             href="https://github.com/emirgedikli"
             rel="noreferrer"
@@ -23,7 +23,7 @@ const Links = () => {
             </a>
           </Link>
         </div>
-        <div className={styles.LKdiv3}>
+        <div className={styles.div2}>
           <Link
             href="http://www.linkedin.com/in/emirgedikli"
             rel="noreferrer"
@@ -34,13 +34,13 @@ const Links = () => {
             </a>
           </Link>
         </div>
-        <div className={styles.LKdiv4}>
+        <div>
           <a href="tel:0033767245024" rel="noreferrer" target="_blank">
             <WhatsAppIcon sx={{ fontSize: 40 }} />
           </a>
         </div>
-      </div>
-    </div>
+      </section>
+    </>
   );
 };
 
