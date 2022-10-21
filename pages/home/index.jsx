@@ -18,7 +18,9 @@ const HomePage = () => {
           <Header />
           <Introduction />
         </div>
-        <Footer />
+        <div>
+          <Footer />
+        </div>
       </>
     </>
   );

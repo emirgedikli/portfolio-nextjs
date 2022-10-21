@@ -6,7 +6,7 @@ let styles = {
   body: "min-h-screen",
 };
 
-const Contact = () => {
+const Projects = () => {
   return (
     <>
       <div className={styles.header}>
@@ -22,4 +22,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Projects;
