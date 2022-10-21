@@ -1,6 +1,6 @@
 import Image from "next/image";
 import profil from "@src/assets/img/profil.png";
-import ViewBtn from "@src/Components/viewbtn";
+import ViewBtn from "@src/components/viewbtn/index";
 
 let styles = {
   INTdiv: "flex flex-col lg:grid lg:grid-cols-2 lg:mt-24 lg:mr-28",

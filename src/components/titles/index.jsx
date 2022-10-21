@@ -1,5 +1,5 @@
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import Carousel from "@src/Components/skills";
+import Skills from "@src/components/skills/index";
 
 let styles = {
   MSdiv: "lg:mt-20",
@@ -27,7 +27,7 @@ const Titles = () => {
         </div>
         {/* MS div 4 */}
         <div className={styles.MSdiv4}>
-          <Carousel />
+          <Skills />
         </div>
         {/* MS div 5 */}
         <div className={styles.MSdiv5}>
