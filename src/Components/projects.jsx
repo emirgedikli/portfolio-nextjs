@@ -12,7 +12,7 @@ let styles = {
   MPdiv3: "",
 };
 
-let Projects = () => {
+const Projects = () => {
   return (
     // MP div
     <div

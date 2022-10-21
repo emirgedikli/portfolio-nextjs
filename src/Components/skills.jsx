@@ -17,7 +17,7 @@ import Npm from "@src/assets/img/Npm.png";
 let styles = {
 };
 
-let Carousel = () => {
+const Skills = () => {
   return (
     <div>
       <div>
@@ -37,4 +37,4 @@ let Carousel = () => {
   );
 };
 
-export default Carousel;
+export default Skills;

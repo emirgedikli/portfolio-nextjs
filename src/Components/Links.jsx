@@ -11,7 +11,7 @@ let styles = {
   LKdiv4: "",
 };
 
-let Links = () => {
+const Links = () => {
   return (
     // LK div
     <div>

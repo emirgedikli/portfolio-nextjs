@@ -8,7 +8,7 @@ let styles = {
   VWdiv2: "pt-6 text-white lg:flex",
 };
 
-let ViewCv = () => {
+const ViewBtn = () => {
   return (
     // VW div
     <div>
@@ -31,4 +31,4 @@ let ViewCv = () => {
   );
 };
 
-export default ViewCv;
+export default ViewBtn;

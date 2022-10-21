@@ -11,7 +11,7 @@ let styles = {
   MSdiv5: "py-12 font-bold text-white text-center text-4xl opacity-70",
 };
 
-let Works = () => {
+const Titles = () => {
   return (
     // MS div
     <div className={styles.MSdiv}>
@@ -38,4 +38,4 @@ let Works = () => {
   );
 };
 
-export default Works;
+export default Titles;
