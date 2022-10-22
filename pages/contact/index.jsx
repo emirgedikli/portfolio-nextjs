@@ -1,9 +1,11 @@
 import Header from "@src/components/header/index";
-import Footer from "@src/components/footer/index";
+import Newsletter from "@src/components/newsletter/newsletter";
+import Links from "@src/components/links/index"
 
 let styles = {
-  header: "bg-[#1f2937] py-10 px-10 pb-12",
-  body: "min-h-screen",
+  header: "bg-[#1f2937] pt-10 pb-4 px-10 lg:pb-16",
+  body: "bg-[#1f2937] min-h-screen fontNunito text-white opacity-90 lg:px-10",
+  Links: "py-14 lg:pb-16 lg:pt-28"
 };
 
 const Contact = () => {
@@ -13,10 +15,10 @@ const Contact = () => {
         <Header />
       </div>
       <div className={styles.body}>
-
-      </div>
-      <div className={styles.footer}>
-        <Footer />
+        <Newsletter />
+        <div className={styles.Links}>
+        <Links />
+        </div>
       </div>
     </>
   );
