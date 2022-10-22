@@ -21,7 +21,7 @@ const IworkWith = () => {
             Je travaille avec...
           </h1>
         </div>
-        <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+        <div className="pl-20 mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8 lg:pl-0">
           {/*  */}
           <div className="rounded-full flex flex-col items-center justify-center bg-white dark:bg-gray-700 p-8 w-48 h-48 lg:w-52 lg:h-52 mx-6 space-y-6">
             <div className="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md">
