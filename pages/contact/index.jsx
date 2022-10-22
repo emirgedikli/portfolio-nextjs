@@ -1,5 +1,5 @@
 import Header from "@src/components/header/index";
-import Newsletter from "@src/components/newsletter/newsletter";
+import Newsletter from "@src/components/newsletter";
 import Links from "@src/components/links/index"
 
 let styles = {

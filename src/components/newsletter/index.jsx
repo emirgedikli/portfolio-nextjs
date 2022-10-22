@@ -40,7 +40,7 @@ const Newsletter = () => {
               type="email"
               placeholder="Votre Email"
             />
-            <button className={styles.NSdiv3btn}>inscrire</button>
+            <button className={styles.NSdiv3btn}>envoyer</button>
           </div>
         </div>
       </div>
