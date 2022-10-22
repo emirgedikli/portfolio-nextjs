@@ -3,7 +3,7 @@ import Newsletterimg from "@src/assets/img/newsletter.png";
 
 let styles = {
   NSdiv:
-    "pt-20 p-6 container md:w-2/3 xl:w-auto mx-auto flex flex-col xl:items-stretch justify-between xl:flex-row",
+    "container md:w-2/3 xl:w-auto mx-auto flex flex-col xl:items-stretch justify-between xl:flex-row",
   NSdiv1:
     "xl:w-1/2 md:mb-14 xl:mb-0 relative h-auto flex items-center justify-center",
   NSdiv1img: "h-full xl:w-full lg:w-1/2 w-full",

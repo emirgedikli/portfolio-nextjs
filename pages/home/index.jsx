@@ -5,7 +5,7 @@ import Footer from "@src/components/footer/index";
 
 let styles = {
   header: "bg-[#1f2937] pt-10 pb-4 px-10 lg:pb-16",
-  body: "bg-[#1f2937] min-h-screen fontNunito text-white opacity-90 lg:px-10",
+  body: "bg-[#1f2937] min-h-screen px-10 py-16 fontNunito text-white opacity-90 lg:px-10",
   footer: "bg-[#1f2937]"
 };
 
