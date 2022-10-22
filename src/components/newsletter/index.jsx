@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Newsletterimg from "@src/assets/img/newsletter.png"
 
 let styles = {
   NSdiv:
@@ -22,17 +23,18 @@ const Newsletter = () => {
     <>
       <div className={styles.NSdiv}>
         <div className={styles.NSdiv1}>
-          <img
-            src="https://cdn.tuk.dev/assets/components/26May-update/newsletter-1.png"
-            alt="Envelope with a newsletter"
-            role="img"
+          <Image
+            src={Newsletterimg}
+            alt="newsletterimg"
             className={styles.NSdiv1img}
           />
         </div>
         <div className={styles.NSdiv2}>
           <h1 className={styles.NSdiv2h1}>Subscribe</h1>
           <p className={styles.NSdiv2p}>
-          Pour exprimer votre opinion, vous pouvez envoyer votre message après avoir précisé votre adresse électronique dans le cadre ci-dessous. Vous pouvez utiliser les liens en bas de page pour me contacter.
+            Pour exprimer votre opinion, vous pouvez envoyer votre message après
+            avoir précisé votre adresse électronique dans le cadre ci-dessous.
+            Vous pouvez utiliser les liens en bas de page pour me contacter.
           </p>
           <div className={styles.NSdiv3}>
             <input

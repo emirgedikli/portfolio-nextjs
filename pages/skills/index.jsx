@@ -3,8 +3,9 @@ import Footer from "@src/components/footer/index";
 import IworkWith from "@src/components/iworkwith/index";
 
 let styles = {
-  header: "bg-[#1f2937] py-10 px-10 pb-12",
-  body: "bg-[#1f2937] min-h-screen px-10 pb-12 lg:pb-52",
+  header: "bg-[#1f2937] pt-10 pb-4 px-10 lg:pb-16",
+  body: "bg-[#1f2937] min-h-screen fontNunito text-white opacity-90 lg:px-10",
+  footer: "bg-[#1f2937]"
 };
 
 const Skills = () => {
