@@ -1,9 +1,9 @@
 import Image from "next/image";
-import profil from "@src/assets/img/profil.png";
+import profil from "@src/assets/img/profil/profil.png";
 import ViewBtn from "@src/components/viewbtn/index";
 
 let styles = {
-  section: "flex flex-col lg:grid lg:grid-cols-2 lg:pt-36 lg:pr-28",
+  section: "flex flex-col lg:grid lg:grid-cols-2",
   div1: "flex justify-center relative overflow-hidden bg-no-repeat bg-cover",
   Image:
     "rounded-3xl max-w-xs hover:scale-110 transition duration-300 ease-in-out",
