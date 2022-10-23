@@ -16,9 +16,8 @@ const Newsletter = () => {
         </p>
 
         <div class="grid grid-cols-1 gap-6 mt-6 sm:grid-cols-2 md:grid-cols-3">
-          <a
-            href="#"
-            class="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-300 transform rounded-md dark:text-gray-200 hover:bg-blue-200 dark:hover:bg-blue-500"
+          <div
+            class="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-300 transform rounded-md dark:text-gray-200"
           >
             <svg
               class="w-5 h-5"
@@ -34,11 +33,10 @@ const Newsletter = () => {
             </svg>
 
             <span class="mt-2">Paris 75000</span>
-          </a>
+          </div>
 
-          <a
-            href="#"
-            class="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-300 transform rounded-md dark:text-gray-200 hover:bg-blue-200 dark:hover:bg-blue-500"
+          <div
+            class="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-300 transform rounded-md dark:text-gray-200"
           >
             <svg
               class="w-5 h-5"
@@ -50,11 +48,10 @@ const Newsletter = () => {
             </svg>
 
             <span class="mt-2">+33767245024</span>
-          </a>
+          </div>
 
-          <a
-            href="#"
-            class="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-300 transform rounded-md dark:text-gray-200 hover:bg-blue-200 dark:hover:bg-blue-500"
+          <div
+            class="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-300 transform rounded-md dark:text-gray-200"
           >
             <svg
               class="w-5 h-5"
@@ -67,7 +64,7 @@ const Newsletter = () => {
             </svg>
 
             <span class="mt-2">emirwtaha@gmail.com</span>
-          </a>
+          </div>
         </div>
 
         <div class="mt-6 ">
