@@ -11,7 +11,7 @@ let styles = {
   NSdiv2h1:
     "text-white opacity-70 text-2xl md:text-4xl xl:text-5xl font-bold leading-10 mb-4 text-center xl:text-left md:mt-0 mt-4",
   NSdiv2p:
-    "text-base leading-normal text-white opacity-20 text-center xl:text-left",
+    "pr-32 text-base leading-normal text-white opacity-20 text-center xl:text-left",
   NSdiv3: "flex items-stretch mt-12",
   NSdiv3input:
     "bg-gray-100 rounded-lg rounded-r-none text-base leading-none text-gray-800 p-5 w-4/5 border border-transparent focus:outline-none focus:border-gray-500",
