@@ -5,8 +5,8 @@ import Footer from "@src/components/footer/index";
 
 let styles = {
   header: "bg-[#1f2937] pt-10 pb-4 px-10 lg:pb-16",
-  body: "bg-[#363f4b] px-10 py-16 fontNunito text-white lg:pr-32 lg:py-32",
-  footer: "bg-[#1f2937]"
+  body: "bg-[#1f2937] px-10 py-16 fontNunito text-white opacity-95 lg:pr-32 lg:pt-28 lg:pb-56",
+  footer: "bg-[#1f2937]",
 };
 
 const HomePage = () => {
