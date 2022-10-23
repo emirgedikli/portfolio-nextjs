@@ -34,8 +34,7 @@ const Newsletter = () => {
           <h1 className={styles.NSdiv2h1}>Écrivez-moi</h1>
           <p className={styles.NSdiv2p}>
             Pour me faire part de vos idées, vous pouvez m'envoyer un message en
-            utilisant la boîte de messages ci-dessous. Utilisez les liens en bas
-            de la page pour me contacter.
+            utilisant la boîte de messages ci-dessous. Mes coordonnées se trouvent en bas de la page.
           </p>
           <div className={styles.NSdiv3}>
             <input
