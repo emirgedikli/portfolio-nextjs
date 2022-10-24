@@ -1,9 +1,10 @@
 import Header from "@src/components/header/index";
 import Footer from "@src/components/footer/index";
+import ViewProjects from "@src/components/viewprojects/index"
 
 let styles = {
   header: "bg-[#1f2937] pt-10 pb-4 px-10 lg:pb-16",
-  body: "bg-[#1f2937] min-h-screen fontNunito opacity-95 text-white lg:px-10",
+  body: "bg-[#1f2937] min-h-screen fontNunito py-44 opacity-95 text-white lg:px-10",
   footer: "bg-[#1f2937]"
 };
 
@@ -14,7 +15,7 @@ const Projects = () => {
         <Header />
       </div>
       <div className={styles.body}>
- 
+        <ViewProjects />
       </div>
       <div className={styles.footer}>
         <Footer />

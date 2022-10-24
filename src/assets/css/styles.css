@@ -9,3 +9,7 @@
 .fontArchivoBlack {
   font-family: "Archivo Black", sans-serif;
 }
+
+.shadow-black {
+  text-shadow: 1px 2px black;
+}
