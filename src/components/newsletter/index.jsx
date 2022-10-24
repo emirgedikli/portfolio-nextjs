@@ -11,7 +11,7 @@ const Newsletter = () => {
           Contactez-moi
         </h2>
 
-        <p class="mt-3 text-center text-gray-600 dark:text-gray-400">
+        <p class="mt-3 w-70 text-center text-gray-600 dark:text-gray-400">
           Vous avez des idées à partager avec moi ? Écrivez maintenant !
         </p>
 
