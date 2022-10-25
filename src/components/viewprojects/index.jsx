@@ -22,7 +22,7 @@ const ViewProjects = () => {
               <h5 class="text-gray-900 text-xl font-medium mb-2">Wireframe</h5>
               <p class="text-gray-700 text-base mb-4">
                 Ce projet est l&apos;une de nos premières expériences. Il
-                s&apos;agit d'un projet qui vise à apprendre comment préparer un
+                s&apos;agit d&apos;un projet qui vise à apprendre comment préparer un
                 zoning et un Wireframe et à apprendre comment le mettre en code.
               </p>
               <Link
@@ -50,7 +50,7 @@ const ViewProjects = () => {
               </h5>
               <p class="text-gray-700 text-base mb-4">
                 Ce projet a pour but d&apos;apprendre à coder la page
-                d&apos;accueil d'un site Web de manière responsive.
+                d&apos;accueil d&apos;un site Web de manière responsive.
               </p>
               <Link
                 href="https://int-landing-page.netlify.app/"
@@ -75,7 +75,7 @@ const ViewProjects = () => {
               <h5 class="text-gray-900 text-xl font-medium mb-2">Portfolio</h5>
               <p class="text-gray-700 text-base mb-4">
                 Ce projet est un projet Next.js. React.js y est également
-                utilisé. Il s&apos;agit d'un travail individuel visant à
+                utilisé. Il s&apos;agit d&apos;un travail individuel visant à
                 apprendre à utiliser un framework.
               </p>
               <Link
