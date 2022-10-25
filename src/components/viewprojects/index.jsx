@@ -156,7 +156,7 @@ const ViewProjects = () => {
             <div class="p-6">
               <h5 class="text-gray-900 text-xl font-medium mb-2">CV</h5>
               <p class="text-gray-700 text-base mb-4">
-                Ce projet est codé en vanille. Il ne contient que du html et du
+                Ce projet est codé en vanilla. Il ne contient que du html et du
                 css.
               </p>
               <Link
