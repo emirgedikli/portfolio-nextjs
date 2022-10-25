@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Newsletterimg from "@src/assets/img/newsletterComp/newsletter.png";
+import Newsletterimg from "@src/assets/img/newsletterIMG/newsletter.png";
 
 let styles = {};
 

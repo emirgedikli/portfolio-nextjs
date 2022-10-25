@@ -1,5 +1,5 @@
 import Image from "next/image";
-import profil from "@src/assets/img/profil/profil.png";
+import profil from "@src/assets/img/profilIMG/profil.png";
 import ViewBtn from "@src/components/viewbtn/index";
 
 let styles = {

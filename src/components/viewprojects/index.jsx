@@ -1,107 +1,176 @@
+import Image from "next/image";
+import Link from "next/link";
+import CVonline from "@src/assets/img/viewprojectsIMG/cvonline.png";
+import Landingpage from "@src/assets/img/viewprojectsIMG/landingpage.png";
+import Mazebank from "@src/assets/img/viewprojectsIMG/mazebank.png";
+import Metacode from "@src/assets/img/viewprojectsIMG/metacode.png";
+import Portfolio from "@src/assets/img/viewprojectsIMG/portfolio.png";
+import Wireframe from "@src/assets/img/viewprojectsIMG/wireframe.png";
+
+let styles = {};
+
 const ViewProjects = () => {
   return (
     <section>
-      <div class="bg-[url('https://zupimages.net/up/22/43/hzgg.png')] text-center relative overflow-hidden bg-no-repeat bg-cover rounded-lg lg:mx-56 lg:mb-20 lg:pb-64 lg:p-12">
-        <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed">
-          <div class="flex justify-center items-center h-full">
-            <div class="text-white shadow-black">
-              <h2 class="font-semibold text-4xl mb-4">Wireframe</h2>
-              <h4 class="font-semibold text-xl mb-6">
-                Intégration d'une maquette
-              </h4>
-              <a
-                class="inline-block px-7 py-3 mb-1 border-2 border-gray-200 text-gray-200 font-medium text-sm leading-snug uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+      {/* lg: BLOG DU HAUT */}
+      <div className="lg:flex lg:justify-around">
+        {/* BLOG 1 */}
+        <div class="flex justify-center mt-20">
+          <div class="rounded-lg shadow-lg bg-white max-w-sm">
+            <Image src={Wireframe} class="rounded-t-lg" />
+            <div class="p-6">
+              <h5 class="text-gray-900 text-xl font-medium mb-2">Wireframe</h5>
+              <p class="text-gray-700 text-base mb-4">
+                Ce projet est l&apos;une de nos premières expériences. Il
+                s&apos;agit d'un projet qui vise à apprendre comment préparer un
+                zoning et un Wireframe et à apprendre comment le mettre en code.
+              </p>
+              <Link
                 href="https://int-wireframe.netlify.app/"
-                role="button"
-                data-mdb-ripple="true"
-                data-mdb-ripple-color="light"
+                rel="noreferrer"
+                target="_blank"
               >
-                Allez vers le site
-              </a>
+                <button
+                  type="button"
+                  class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Visitez
+                </button>
+              </Link>
             </div>
           </div>
         </div>
-      </div>
-      <div class="bg-[url('https://zupimages.net/up/22/43/4kgk.png')] text-center relative overflow-hidden bg-no-repeat bg-cover rounded-lg lg:mx-56 lg:mb-20 lg:pb-64 lg:p-12">
-        <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed">
-          <div class="flex justify-center items-center h-full">
-            <div class="text-white shadow-black">
-              <h2 class="font-semibold text-4xl mb-4">Landing page</h2>
-              <h4 class="font-semibold text-xl mb-6">
-                Intégration d'une landing page en format mobile L
-              </h4>
-              <a
-                class="inline-block px-7 py-3 mb-1 border-2 border-gray-200 text-gray-200 font-medium text-sm leading-snug uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+        {/* BLOG 2 */}
+        <div class="flex justify-center mt-20">
+          <div class="rounded-lg shadow-lg bg-white max-w-sm">
+            <Image src={Landingpage} class="rounded-t-lg" />
+            <div class="p-6">
+              <h5 class="text-gray-900 text-xl font-medium mb-2">
+                Landing Page
+              </h5>
+              <p class="text-gray-700 text-base mb-4">
+                Ce projet a pour but d&apos;apprendre à coder la page
+                d&apos;accueil d'un site Web de manière responsive.
+              </p>
+              <Link
                 href="https://int-landing-page.netlify.app/"
-                role="button"
-                data-mdb-ripple="true"
-                data-mdb-ripple-color="light"
+                rel="noreferrer"
+                target="_blank"
               >
-                Allez vers le site
-              </a>
+                <button
+                  type="button"
+                  class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Visitez
+                </button>
+              </Link>
             </div>
           </div>
         </div>
-      </div>
-      <div class="bg-[url('https://zupimages.net/up/22/43/3cw5.png')] text-center relative overflow-hidden bg-no-repeat bg-cover rounded-lg lg:mx-56 lg:mb-20 lg:pb-64 lg:p-12">
-        <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed">
-          <div class="flex justify-center items-center h-full">
-            <div class="text-white shadow-black">
-              <h2 class="font-semibold text-4xl mb-4">Portfolio</h2>
-              <h4 class="font-semibold text-xl mb-6">
-                Création d'un portfolio avec Next.js
-              </h4>
-              <a
-                class="inline-block px-7 py-3 mb-1 border-2 border-gray-200 text-gray-200 font-medium text-sm leading-snug uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+        {/* BLOG 3 */}
+        <div class="flex justify-center mt-20">
+          <div class="rounded-lg shadow-lg bg-white max-w-sm">
+            <Image src={Portfolio} class="rounded-t-lg" />
+            <div class="p-6">
+              <h5 class="text-gray-900 text-xl font-medium mb-2">Portfolio</h5>
+              <p class="text-gray-700 text-base mb-4">
+                Ce projet est un projet Next.js. React.js y est également
+                utilisé. Il s&apos;agit d'un travail individuel visant à
+                apprendre à utiliser un framework.
+              </p>
+              <Link
                 href="https://gedikli-portfolio.netlify.app/"
-                role="button"
-                data-mdb-ripple="true"
-                data-mdb-ripple-color="light"
+                rel="noreferrer"
+                target="_blank"
               >
-                Allez vers le site
-              </a>
+                <button
+                  type="button"
+                  class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Visitez
+                </button>
+              </Link>
             </div>
           </div>
         </div>
       </div>
-      <div class="bg-[url('https://zupimages.net/up/22/43/kk67.png')] text-center relative overflow-hidden bg-no-repeat bg-cover rounded-lg lg:mx-56 lg:mb-20 lg:pb-64 lg:p-12">
-        <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed">
-          <div class="flex justify-center items-center h-full">
-            <div class="text-white shadow-black">
-              <h2 class="font-semibold text-4xl mb-4">MetaCode</h2>
-              <h4 class="font-semibold text-xl mb-6">
-                Création d'une agence web en groupe
-              </h4>
-              <a
-                class="inline-block px-7 py-3 mb-1 border-2 border-gray-200 text-gray-200 font-medium text-sm leading-snug uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+      {/* lg: BLOG DU BAS */}
+      <div className="lg:flex lg:justify-around">
+        {/* BLOG 3 */}
+        <div class="flex justify-center mt-20">
+          <div class="rounded-lg shadow-lg bg-white max-w-sm">
+            <Image src={Metacode} class="rounded-t-lg" />
+            <div class="p-6">
+              <h5 class="text-gray-900 text-xl font-medium mb-2">Meta Code</h5>
+              <p class="text-gray-700 text-base mb-4">
+                Ce projet est une travail d&apos;équipe. Il est préparée pour
+                apprendre comment construire et gérer une agence web, comment
+                déléguer des tâches sur github et comment faire les git merge
+                etc.
+              </p>
+              <Link
                 href="https://meta-code.netlify.app/"
-                role="button"
-                data-mdb-ripple="true"
-                data-mdb-ripple-color="light"
+                rel="noreferrer"
+                target="_blank"
               >
-                Allez vers le site
-              </a>
+                <button
+                  type="button"
+                  class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Visitez
+                </button>
+              </Link>
             </div>
           </div>
         </div>
-      </div>
-      <div class="bg-[url('https://zupimages.net/up/22/43/5e8l.png')] mx-56 pb-64 p-12 text-center relative overflow-hidden bg-no-repeat bg-cover rounded-lg lg:mx-56 lg:mb-20 lg:pb-64 lg:p-12">
-        <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed">
-          <div class="flex justify-center items-center h-full">
-            <div class="text-white shadow-black">
-              <h2 class="font-semibold text-4xl mb-4">MazeBank</h2>
-              <h4 class="font-semibold text-xl mb-6">
-                Création d'un site bancaire
-              </h4>
-              <a
-                class="inline-block px-7 py-3 mb-1 border-2 border-gray-200 text-gray-200 font-medium text-sm leading-snug uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+        {/* BLOG 4 */}
+        <div class="flex justify-center mt-20">
+          <div class="rounded-lg shadow-lg bg-white max-w-sm">
+            <Image src={Mazebank} class="rounded-t-lg" />
+            <div class="p-6">
+              <h5 class="text-gray-900 text-xl font-medium mb-2">Maze Bank</h5>
+              <p class="text-gray-700 text-base mb-4">
+                Il s&apos;agit d&apos;un système de compte bancaire codé pour
+                créer des transactions de dépôt et de retrait. Il est codé avec
+                html, css et javascript.
+              </p>
+              <Link
                 href="https://sb-mazebank.netlify.app/"
-                role="button"
-                data-mdb-ripple="true"
-                data-mdb-ripple-color="light"
+                rel="noreferrer"
+                target="_blank"
               >
-                Allez vers le site
-              </a>
+                <button
+                  type="button"
+                  class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Visitez
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
+        {/* BLOG 6 */}
+        <div class="flex justify-center mt-20">
+          <div class="rounded-lg shadow-lg bg-white max-w-sm">
+            <Image src={CVonline} class="rounded-t-lg" />
+            <div class="p-6">
+              <h5 class="text-gray-900 text-xl font-medium mb-2">CV</h5>
+              <p class="text-gray-700 text-base mb-4">
+                Ce projet est codé en vanille. Il ne contient que du html et du
+                css.
+              </p>
+              <Link
+                href="https://cv-emir.netlify.app/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <button
+                  type="button"
+                  class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Visitez
+                </button>
+              </Link>
             </div>
           </div>
         </div>
