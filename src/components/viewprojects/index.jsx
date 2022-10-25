@@ -23,7 +23,7 @@ const ViewProjects = () => {
               <p class="text-gray-700 text-base mb-4">
                 Ce projet est l&apos;une de nos premières expériences. Il
                 s&apos;agit d&apos;un projet qui vise à apprendre comment préparer un
-                zoning et un Wireframe et à apprendre comment le mettre en code.
+                zoning et un wireframe et à apprendre comment le mettre en code.
               </p>
               <Link
                 href="https://int-wireframe.netlify.app/"
