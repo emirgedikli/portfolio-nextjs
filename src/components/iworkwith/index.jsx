@@ -29,7 +29,7 @@ const IworkWith = () => {
                 Html
               </h3>
               <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 lg:pl-40 lg:pt-4">
-                Depuis juin 2022
+                Depuis avril 2022
               </time>
             </li>
             <li class="mb-10 ml-6 lg:pt-10">
@@ -40,7 +40,7 @@ const IworkWith = () => {
                 Css
               </h3>
               <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 lg:pl-40 lg:pt-4">
-                Depuis juin 2022
+                Depuis mai 2022
               </time>
             </li>
             <li class="mb-10 ml-6 lg:pt-10">
@@ -51,18 +51,18 @@ const IworkWith = () => {
                 Webpack
               </h3>
               <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 lg:pl-40 lg:pt-4">
-                Depuis juin 2022
+                Depuis août 2022
               </time>
             </li>
             <li class="mb-10 ml-6 lg:pt-10">
-              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 bg-white lg:w-32 lg:h-32">
+              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 bg-white lg:w-32 lg:h-32 lg:p-4">
                 <Image src={Tailwind} />
               </span>
               <h3 class="uppercase mb-2 pl-2 text-lg font-semibold text-gray-900 dark:text-white lg:text-3xl lg:pl-40 lg:pt-6">
                 Tailwind
               </h3>
               <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 lg:pl-40 lg:pt-4">
-                Depuis juin 2022
+                Depuis juillet 2022
               </time>
             </li>
             <li class="mb-10 ml-6 lg:pt-10">
@@ -73,7 +73,7 @@ const IworkWith = () => {
                 Wordpress
               </h3>
               <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 lg:pl-40 lg:pt-4">
-                Depuis juin 2022
+                Depuis septembre 2022
               </time>
             </li>
             <li class="mb-10 ml-6 lg:pt-10">
@@ -84,7 +84,7 @@ const IworkWith = () => {
                 React js
               </h3>
               <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 lg:pl-40 lg:pt-4">
-                Depuis juin 2022
+                Depuis octobre 2022
               </time>
             </li>
             <li class="mb-10 ml-6 lg:pt-10">
@@ -95,7 +95,7 @@ const IworkWith = () => {
                 Next js
               </h3>
               <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 lg:pl-40 lg:pt-4">
-                Depuis juin 2022
+                Depuis octobre 2022
               </time>
             </li>
           </ol>
@@ -111,7 +111,7 @@ const IworkWith = () => {
                 Php
               </h3>
               <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 lg:pl-40 lg:pt-4">
-                Depuis juin 2022
+                Depuis octobre 2022
               </time>
             </li>
             <li class="mb-10 ml-6 lg:pt-10">
@@ -122,7 +122,7 @@ const IworkWith = () => {
                 Php My Admin
               </h3>
               <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 lg:pl-40 lg:pt-4">
-                Depuis juin 2022
+                Depuis octobre 2022
               </time>
             </li>
             <li class="mb-10 ml-6 lg:pt-10">
@@ -133,22 +133,22 @@ const IworkWith = () => {
                 Symfony
               </h3>
               <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 lg:pl-40 lg:pt-4">
-                Depuis juin 2022
+                Depuis novembre 2022
               </time>
             </li>
             <li class="mb-10 ml-6 lg:pt-10">
-              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 bg-white lg:w-32 lg:h-32">
+              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 bg-white lg:w-32 lg:h-32 lg:p-4">
                 <Image src={Sql} />
               </span>
               <h3 class="uppercase mb-2 pl-2 text-lg font-semibold text-gray-900 dark:text-white lg:text-3xl lg:pl-40 lg:pt-6">
                 Sql
               </h3>
               <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 lg:pl-40 lg:pt-4">
-                Depuis juin 2022
+                Depuis octobre 2022
               </time>
             </li>
             <li class="mb-10 ml-6 lg:pt-10">
-              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 bg-white lg:w-32 lg:h-32">
+              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 bg-white lg:w-32 lg:h-32 lg:p-4">
                 <Image src={Nodejs} />
               </span>
               <h3 class="uppercase mb-2 pl-2 text-lg font-semibold text-gray-900 dark:text-white lg:text-3xl lg:pl-40 lg:pt-6">
@@ -159,14 +159,14 @@ const IworkWith = () => {
               </time>
             </li>
             <li class="mb-10 ml-6 lg:pt-10">
-              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 bg-white lg:w-32 lg:h-32">
+              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 bg-white lg:w-32 lg:h-32 lg:p-4">
                 <Image src={Mongodb} />
               </span>
               <h3 class="uppercase mb-2 pl-2 text-lg font-semibold text-gray-900 dark:text-white lg:text-3xl lg:pl-40 lg:pt-6">
                 Mongo db
               </h3>
               <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 lg:pl-40 lg:pt-4">
-                Depuis juin 2022
+                Depuis décembre 2022
               </time>
             </li>
           </ol>
