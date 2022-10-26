@@ -44,17 +44,6 @@ const IworkWith = () => {
               </time>
             </li>
             <li class="mb-10 ml-6 lg:pt-10">
-              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 lg:w-32 lg:h-32">
-                <Image src={Webpack} />
-              </span>
-              <h3 class="uppercase mb-2 pl-2 text-lg font-semibold text-gray-900 dark:text-white lg:text-3xl lg:pl-40 lg:pt-6">
-                Webpack
-              </h3>
-              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 lg:pl-40 lg:pt-4">
-                Depuis août 2022
-              </time>
-            </li>
-            <li class="mb-10 ml-6 lg:pt-10">
               <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 bg-white lg:w-32 lg:h-32 lg:p-4">
                 <Image src={Tailwind} />
               </span>
@@ -63,6 +52,28 @@ const IworkWith = () => {
               </h3>
               <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 lg:pl-40 lg:pt-4">
                 Depuis juillet 2022
+              </time>
+            </li>
+            <li class="mb-10 ml-6 lg:pt-10">
+              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 bg-white lg:w-32 lg:h-32 lg:p-4">
+                <Image src={Bootstrap} />
+              </span>
+              <h3 class="uppercase mb-2 pl-2 text-lg font-semibold text-gray-900 dark:text-white lg:text-3xl lg:pl-40 lg:pt-6">
+                Bootstrap
+              </h3>
+              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 lg:pl-40 lg:pt-4">
+                Depuis juillet 2022
+              </time>
+            </li>
+            <li class="mb-10 ml-6 lg:pt-10">
+              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 lg:w-32 lg:h-32">
+                <Image src={Webpack} />
+              </span>
+              <h3 class="uppercase mb-2 pl-2 text-lg font-semibold text-gray-900 dark:text-white lg:text-3xl lg:pl-40 lg:pt-6">
+                Webpack
+              </h3>
+              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 lg:pl-40 lg:pt-4">
+                Depuis septembre 2022
               </time>
             </li>
             <li class="mb-10 ml-6 lg:pt-10">
@@ -77,6 +88,33 @@ const IworkWith = () => {
               </time>
             </li>
             <li class="mb-10 ml-6 lg:pt-10">
+              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 bg-white lg:w-32 lg:h-32 lg:p-4">
+                <Image src={Nodejs} />
+              </span>
+              <h3 class="uppercase mb-2 pl-2 text-lg font-semibold text-gray-900 dark:text-white lg:text-3xl lg:pl-40 lg:pt-6">
+                Node js
+              </h3>
+              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 lg:pl-40 lg:pt-4">
+                Depuis septembre 2022
+              </time>
+            </li>
+          </ol>
+        </div>
+        {/* lg: right column */}
+        <div className="lg:ml-20">
+          <ol class="relative border-l border-gray-200 dark:border-gray-700">
+            <li class="mb-10 ml-6">
+              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 bg-white lg:w-32 lg:h-32">
+                <Image src={Nextjs} />
+              </span>
+              <h3 class="uppercase mb-2 pl-2 text-lg font-semibold text-gray-900 dark:text-white lg:text-3xl lg:pl-40 lg:pt-6">
+                Next js
+              </h3>
+              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 lg:pl-40 lg:pt-4">
+                Depuis octobre 2022
+              </time>
+            </li>
+            <li class="mb-10 ml-6 lg:pt-10">
               <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 lg:w-32 lg:h-32">
                 <Image src={Reactjs} />
               </span>
@@ -88,23 +126,7 @@ const IworkWith = () => {
               </time>
             </li>
             <li class="mb-10 ml-6 lg:pt-10">
-              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 lg:w-32 lg:h-32">
-                <Image src={Nextjs} />
-              </span>
-              <h3 class="uppercase mb-2 pl-2 text-lg font-semibold text-gray-900 dark:text-white lg:text-3xl lg:pl-40 lg:pt-6">
-                Next js
-              </h3>
-              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 lg:pl-40 lg:pt-4">
-                Depuis octobre 2022
-              </time>
-            </li>
-          </ol>
-        </div>
-        {/* lg: right column */}
-        <div className="lg:ml-20">
-          <ol class="relative border-l border-gray-200 dark:border-gray-700">
-            <li class="mb-10 ml-6">
-              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 bg-white lg:w-32 lg:h-32">
+              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 bg-white lg:w-32 lg:h-32 lg:p-4">
                 <Image src={Php} />
               </span>
               <h3 class="uppercase mb-2 pl-2 text-lg font-semibold text-gray-900 dark:text-white lg:text-3xl lg:pl-40 lg:pt-6">
@@ -126,17 +148,6 @@ const IworkWith = () => {
               </time>
             </li>
             <li class="mb-10 ml-6 lg:pt-10">
-              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 bg-white lg:w-32 lg:h-32">
-                <Image src={Symfony} />
-              </span>
-              <h3 class="uppercase mb-2 pl-2 text-lg font-semibold text-gray-900 dark:text-white lg:text-3xl lg:pl-40 lg:pt-6">
-                Symfony
-              </h3>
-              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 lg:pl-40 lg:pt-4">
-                Depuis novembre 2022
-              </time>
-            </li>
-            <li class="mb-10 ml-6 lg:pt-10">
               <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 bg-white lg:w-32 lg:h-32 lg:p-4">
                 <Image src={Sql} />
               </span>
@@ -148,14 +159,14 @@ const IworkWith = () => {
               </time>
             </li>
             <li class="mb-10 ml-6 lg:pt-10">
-              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 bg-white lg:w-32 lg:h-32 lg:p-4">
-                <Image src={Nodejs} />
+              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 bg-white lg:w-32 lg:h-32">
+                <Image src={Symfony} />
               </span>
               <h3 class="uppercase mb-2 pl-2 text-lg font-semibold text-gray-900 dark:text-white lg:text-3xl lg:pl-40 lg:pt-6">
-                Node js
+                Symfony
               </h3>
               <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 lg:pl-40 lg:pt-4">
-                Depuis juin 2022
+                Depuis novembre 2022
               </time>
             </li>
             <li class="mb-10 ml-6 lg:pt-10">
