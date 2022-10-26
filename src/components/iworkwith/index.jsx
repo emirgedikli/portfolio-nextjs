@@ -13,6 +13,8 @@ import Nodejs from "@src/assets/img/iworkwithIMG/Nodejs.png";
 import Mongodb from "@src/assets/img/iworkwithIMG/Mongodb.png";
 import PhpmyAdmin from "@src/assets/img/iworkwithIMG/PhpmyAdmin.png";
 import Symfony from "@src/assets/img/iworkwithIMG/Symfony.png";
+import Git from "@src/assets/img/iworkwithIMG/Git.png";
+import Javascript from "@src/assets/img/iworkwithIMG/Javascript.png";
 
 const IworkWith = () => {
   return (
@@ -41,6 +43,28 @@ const IworkWith = () => {
               </h3>
               <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 lg:pl-40 lg:pt-4">
                 Depuis mai 2022
+              </time>
+            </li>
+            <li class="mb-10 ml-6 lg:pt-10">
+              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 lg:w-32 lg:h-32">
+                <Image src={Git} />
+              </span>
+              <h3 class="uppercase mb-2 pl-2 text-lg font-semibold text-gray-900 dark:text-white lg:text-3xl lg:pl-40 lg:pt-6">
+                Git
+              </h3>
+              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 lg:pl-40 lg:pt-4">
+                Depuis juin 2022
+              </time>
+            </li>
+            <li class="mb-10 ml-6 lg:pt-10">
+              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 lg:w-32 lg:h-32 lg:p-2">
+                <Image src={Javascript} />
+              </span>
+              <h3 class="uppercase mb-2 pl-2 text-lg font-semibold text-gray-900 dark:text-white lg:text-3xl lg:pl-40 lg:pt-6">
+                Javascript
+              </h3>
+              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 lg:pl-40 lg:pt-4">
+                Depuis août 2022
               </time>
             </li>
             <li class="mb-10 ml-6 lg:pt-10">
@@ -87,8 +111,13 @@ const IworkWith = () => {
                 Depuis septembre 2022
               </time>
             </li>
-            <li class="mb-10 ml-6 lg:pt-10">
-              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 bg-white lg:w-32 lg:h-32 lg:p-4">
+          </ol>
+        </div>
+        {/* lg: right column */}
+        <div className="lg:ml-20">
+          <ol class="relative border-l border-gray-200 dark:border-gray-700">
+            <li class="mb-10 ml-6">
+              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 bg-white lg:w-32 lg:h-32 lg:p-2">
                 <Image src={Nodejs} />
               </span>
               <h3 class="uppercase mb-2 pl-2 text-lg font-semibold text-gray-900 dark:text-white lg:text-3xl lg:pl-40 lg:pt-6">
@@ -98,13 +127,8 @@ const IworkWith = () => {
                 Depuis septembre 2022
               </time>
             </li>
-          </ol>
-        </div>
-        {/* lg: right column */}
-        <div className="lg:ml-20">
-          <ol class="relative border-l border-gray-200 dark:border-gray-700">
-            <li class="mb-10 ml-6">
-              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 bg-white lg:w-32 lg:h-32">
+            <li class="mb-10 ml-6 lg:pt-10">
+              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 bg-white lg:w-32 lg:h-32 lg:p-4">
                 <Image src={Nextjs} />
               </span>
               <h3 class="uppercase mb-2 pl-2 text-lg font-semibold text-gray-900 dark:text-white lg:text-3xl lg:pl-40 lg:pt-6">
@@ -170,7 +194,7 @@ const IworkWith = () => {
               </time>
             </li>
             <li class="mb-10 ml-6 lg:pt-10">
-              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 bg-white lg:w-32 lg:h-32 lg:p-4">
+              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 bg-white lg:w-32 lg:h-32 lg:p-2">
                 <Image src={Mongodb} />
               </span>
               <h3 class="uppercase mb-2 pl-2 text-lg font-semibold text-gray-900 dark:text-white lg:text-3xl lg:pl-40 lg:pt-6">
