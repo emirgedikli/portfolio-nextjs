@@ -5,7 +5,7 @@ let styles = {
   header: "lg:flex lg:py-10 lg:w-full",
   name: "lg:flex lg:justify-center lg:w-full",
   nav: "lg:flex lg:justify-center lg:text-2xl lg:w-full",
-  Accueil: "lg:bg-transparent lg:text-white lg:p-0 dark:text-white",
+  Accueil: "lg:bg-transparent lg:text-white lg:p-0",
   Projets: "lg:mx-16 lg:text-white",
   Skills: "lg:text-white",
   Contact: "lg:ml-16 lg:text-white",

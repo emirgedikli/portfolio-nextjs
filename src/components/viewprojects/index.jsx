@@ -11,7 +11,7 @@ let styles = {};
 
 const ViewProjects = () => {
   return (
-    <section>
+    <section className="lg:ml-20">
       {/* lg: BLOG DU HAUT */}
       <div className="lg:flex lg:justify-around">
         {/* BLOG 1 */}
