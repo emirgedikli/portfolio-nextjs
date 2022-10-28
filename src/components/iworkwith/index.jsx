@@ -17,8 +17,10 @@ import Git from "@src/assets/img/iworkwithIMG/Git.png";
 import Javascript from "@src/assets/img/iworkwithIMG/Javascript.png";
 
 let styles = {
+  section: "lg:ml-24 lg:-mt-20",
   div1: "lg:grid lg:grid-cols-2",
-  iworkwith: "text-center text-white pb-20 text-5xl font-extrabold",
+  iworkwith:
+    "text-start text-white pb-20 text-4xl font-extrabold lg:text-center lg:pb-40 lg:text-6xl",
   div2: "lg:ml-20",
   ol: "relative border-l border-gray-200 dark:border-gray-700",
   li: "mb-10 ml-6 lg:mb-28 lg:ml-6",
@@ -29,7 +31,7 @@ let styles = {
 
 const IworkWith = () => {
   return (
-    <section>
+    <section className={styles.section}>
       <div className={styles.iworkwith}>
         <h1>Je travail avec...</h1>
       </div>

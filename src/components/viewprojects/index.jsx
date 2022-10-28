@@ -8,7 +8,8 @@ import Wireframe from "@src/assets/img/viewprojectsIMG/wireframe.png";
 
 let styles = {
   section: "lg:ml-36 lg:-mt-20",
-  projets: "text-center text-white pb-20 text-5xl font-extrabold",
+  projets:
+    "text-start text-white pb-20 text-4xl font-extrabold lg:text-center lg:pb-40 lg:text-6xl",
 };
 
 const ViewProjects = () => {
@@ -20,7 +21,7 @@ const ViewProjects = () => {
       {/* lg: BLOG DU HAUT */}
       <div className="lg:flex lg:justify-around">
         {/* BLOG 1 */}
-        <div class="flex justify-center mt-20">
+        <div class="flex justify-center">
           <div class="rounded-lg shadow-lg bg-white max-w-sm">
             <Image src={Wireframe} class="rounded-t-lg" />
             <div class="p-6">
@@ -47,7 +48,7 @@ const ViewProjects = () => {
           </div>
         </div>
         {/* BLOG 2 */}
-        <div class="flex justify-center mt-20">
+        <div class="flex justify-center">
           <div class="rounded-lg shadow-lg bg-white max-w-sm">
             <Image src={Landingpage} class="rounded-t-lg" />
             <div class="p-6">
@@ -74,7 +75,7 @@ const ViewProjects = () => {
           </div>
         </div>
         {/* BLOG 3 */}
-        <div class="flex justify-center mt-20">
+        <div class="flex justify-center">
           <div class="rounded-lg shadow-lg bg-white max-w-sm">
             <Image src={Metacode} class="rounded-t-lg" />
             <div class="p-6">
