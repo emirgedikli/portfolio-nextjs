@@ -18,6 +18,7 @@ import Javascript from "@src/assets/img/iworkwithIMG/Javascript.png";
 
 let styles = {
   div1: "lg:grid lg:grid-cols-2",
+  iworkwith: "text-center text-white pb-20 text-5xl font-extrabold",
   div2: "lg:ml-20",
   ol: "relative border-l border-gray-200 dark:border-gray-700",
   li: "mb-10 ml-6 lg:mb-28 lg:ml-6",
@@ -29,6 +30,9 @@ let styles = {
 const IworkWith = () => {
   return (
     <section>
+      <div className={styles.iworkwith}>
+        <h1>Je travail avec...</h1>
+      </div>
       <div className={styles.div1}>
         {/* lg: left column */}
         <div>
