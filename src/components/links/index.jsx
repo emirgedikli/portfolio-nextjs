@@ -6,8 +6,8 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 
 let styles = {
   section: "flex justify-center text-white pb-4 opacity-75 lg:py-12",
-  px: "px-4",
-  pr: "pr-4",
+  px: "px-6 lg:px-10",
+  pr: "pr-6 lg:pr-10",
 };
 
 const Links = () => {
