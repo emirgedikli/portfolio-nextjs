@@ -9,7 +9,7 @@ import Wireframe from "@src/assets/img/viewprojectsIMG/wireframe.png";
 let styles = {
   section: "lg:ml-36 lg:-mt-20",
   projets:
-    "text-start text-white pb-20 text-4xl font-extrabold lg:text-center lg:pb-40 lg:text-6xl",
+    "text-center text-white pb-20 text-4xl font-extrabold lg:text-center lg:pb-40 lg:text-6xl",
 };
 
 const ViewProjects = () => {
@@ -39,7 +39,7 @@ const ViewProjects = () => {
               >
                 <button
                   type="button"
-                  class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                  class=" inline-block px-6 py-2.5 bg-blue-900 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-800 hover:shadow-lg focus:ring-offset-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-600 active:shadow-lg transition duration-150 ease-in-out"
                 >
                   Visitez
                 </button>
@@ -48,7 +48,7 @@ const ViewProjects = () => {
           </div>
         </div>
         {/* BLOG 2 */}
-        <div class="flex justify-center">
+        <div class="flex justify-center mt-20 lg:mt-0">
           <div class="rounded-lg shadow-lg bg-white max-w-sm">
             <Image src={Landingpage} class="rounded-t-lg" />
             <div class="p-6">
@@ -66,7 +66,7 @@ const ViewProjects = () => {
               >
                 <button
                   type="button"
-                  class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                  class=" inline-block px-6 py-2.5 bg-blue-900 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-800 hover:shadow-lg focus:ring-offset-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-600 active:shadow-lg transition duration-150 ease-in-out"
                 >
                   Visitez
                 </button>
@@ -75,7 +75,7 @@ const ViewProjects = () => {
           </div>
         </div>
         {/* BLOG 3 */}
-        <div class="flex justify-center">
+        <div class="flex justify-center mt-20 lg:mt-0">
           <div class="rounded-lg shadow-lg bg-white max-w-sm">
             <Image src={Metacode} class="rounded-t-lg" />
             <div class="p-6">
@@ -93,7 +93,7 @@ const ViewProjects = () => {
               >
                 <button
                   type="button"
-                  class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                  class=" inline-block px-6 py-2.5 bg-blue-900 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-800 hover:shadow-lg focus:ring-offset-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-600 active:shadow-lg transition duration-150 ease-in-out"
                 >
                   Visitez
                 </button>
@@ -122,7 +122,7 @@ const ViewProjects = () => {
               >
                 <button
                   type="button"
-                  class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                  class=" inline-block px-6 py-2.5 bg-blue-900 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-800 hover:shadow-lg focus:ring-offset-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-600 active:shadow-lg transition duration-150 ease-in-out"
                 >
                   Visitez
                 </button>
@@ -148,7 +148,7 @@ const ViewProjects = () => {
               >
                 <button
                   type="button"
-                  class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                  class=" inline-block px-6 py-2.5 bg-blue-900 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-800 hover:shadow-lg focus:ring-offset-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-600 active:shadow-lg transition duration-150 ease-in-out"
                 >
                   Visitez
                 </button>
@@ -173,7 +173,7 @@ const ViewProjects = () => {
               >
                 <button
                   type="button"
-                  class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                  class=" inline-block px-6 py-2.5 bg-blue-900 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-800 hover:shadow-lg focus:ring-offset-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-600 active:shadow-lg transition duration-150 ease-in-out"
                 >
                   Visitez
                 </button>

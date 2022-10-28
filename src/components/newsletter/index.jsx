@@ -7,7 +7,7 @@ const Newsletter = () => {
   return (
     <>
       <section className="flex justify-center lg:flex lg:justify-center">
-        <div class="w-full max-w-2xl px-6 py-4 mx-auto bg-white rounded-md shadow-md dark:bg-gray-800">
+        <div class="w-full max-w-2xl px-6 py-4 mx-auto bg-gray-800 rounded-md shadow-md">
           <h2 class="text-3xl font-semibold text-center text-gray-800 dark:text-white">
             Contactez-moi
           </h2>

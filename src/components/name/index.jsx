@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 let styles = {
   name: "fontMeddon text-white text-2xl opacity-60 lg:flex lg:justify-center lg:text-4xl",
 };
@@ -5,7 +7,9 @@ let styles = {
 const Name = () => {
   return (
     <>
-      <h1 className={styles.name}>Emir Gedikli</h1>
+      <Link href="/">
+        <h1 className={styles.name}>Emir Gedikli</h1>
+      </Link>
     </>
   );
 };
