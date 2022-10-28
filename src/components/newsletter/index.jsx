@@ -1,93 +1,79 @@
 import Image from "next/image";
 import Newsletterimg from "@src/assets/img/newsletterIMG/newsletter.png";
 
-let styles = {};
+let styles = {
+  section: "flex justify-center lg:flex lg:justify-center",
+  sectionDiv:
+    "w-full max-w-2xl px-6 py-4 mx-auto bg-gray-800 rounded-md shadow-md",
+  h2: "text-3xl font-semibold text-center text-gray-800 dark:text-white",
+  p: "mt-3 w-70 text-center text-gray-600 dark:text-gray-400",
+  div1: "grid grid-cols-1 gap-6 mt-6 sm:grid-cols-2 md:grid-cols-3",
+  icons:
+    "flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-300 transform rounded-md dark:text-gray-200",
+  spans: "mt-2",
+  div2: "mt-6",
+  div2divA: "items-center -mx-2 md:flex",
+  div2divLabel: "w-full mx-2 mt-4 md:mt-0",
+  email: "block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200",
+  inputEmail:
+    "block w-full px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40",
+  div2divB: "w-full mt-4",
+  message: "block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200",
+  divBtextarea:
+    "block w-full h-40 px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40",
+  div2divC: "flex justify-center mt-6",
+  sendBtn:
+    "px-4 py-2 text-white transition-colors duration-300 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600",
+};
 
 const Newsletter = () => {
   return (
     <>
-      <section className="flex justify-center lg:flex lg:justify-center">
-        <div class="w-full max-w-2xl px-6 py-4 mx-auto bg-gray-800 rounded-md shadow-md">
-          <h2 class="text-3xl font-semibold text-center text-gray-800 dark:text-white">
-            Contactez-moi
-          </h2>
+      <section className={styles.section}>
+        <div className={styles.sectionDiv}>
+          <h2 className={styles.h2}>Contactez-moi</h2>
 
-          <p class="mt-3 w-70 text-center text-gray-600 dark:text-gray-400">
+          <p className={styles.p}>
             Vous avez des idées à partager avec moi ? Écrivez maintenant !
           </p>
 
-          <div class="grid grid-cols-1 gap-6 mt-6 sm:grid-cols-2 md:grid-cols-3">
-            <div class="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-300 transform rounded-md dark:text-gray-200">
-              <svg
-                class="w-5 h-5"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
-                  clip-rule="evenodd"
-                />
-              </svg>
+          <div className={styles.div1}>
+            <div className={styles.icons}>
+              {/* konum */}
 
-              <span class="mt-2">Paris 75000</span>
+              <span className={styles.spans}>Paris 75000</span>
             </div>
 
-            <div class="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-300 transform rounded-md dark:text-gray-200">
-              <svg
-                class="w-5 h-5"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-              </svg>
+            <div className={styles.icons}>
+              {/* telefon */}
 
-              <span class="mt-2">+33767245024</span>
+              <span className={styles.spans}>+33767245024</span>
             </div>
 
-            <div class="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-300 transform rounded-md dark:text-gray-200">
-              <svg
-                class="w-5 h-5"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-              </svg>
+            <div className={styles.icons}>
+              {/* mail */}
 
-              <span class="mt-2">emirwtaha@gmail.com</span>
+              <span className={styles.spans}>emirwtaha@gmail.com</span>
             </div>
           </div>
 
-          <div class="mt-6 ">
-            <div class="items-center -mx-2 md:flex">
-              <div class="w-full mx-2 mt-4 md:mt-0">
-                <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200">
-                  E-mail
-                </label>
+          <div className={styles.div2}>
+            <div className={styles.div2divA}>
+              <div className={styles.div2divLabel}>
+                <label className={styles.email}>E-mail</label>
 
-                <input
-                  class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
-                  type="email"
-                />
+                <input className={styles.inputEmail} type="email" />
               </div>
             </div>
 
-            <div class="w-full mt-4">
-              <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200">
-                Message
-              </label>
+            <div className={styles.div2divB}>
+              <label className={styles.message}>Message</label>
 
-              <textarea class="block w-full h-40 px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40"></textarea>
+              <textarea className={styles.divBtextarea}></textarea>
             </div>
 
-            <div class="flex justify-center mt-6">
-              <button class="px-4 py-2 text-white transition-colors duration-300 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600">
-                Envoyer
-              </button>
+            <div className={styles.div2divC}>
+              <button className={styles.sendBtn}>Envoyer</button>
             </div>
           </div>
         </div>

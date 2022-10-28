@@ -5,7 +5,7 @@ import Links from "@src/components/links/index";
 let styles = {
   header: "bg-[#1f2937]",
   body: "bg-[#1f2937] px-10 py-16 fontNunito text-white opacity-95 lg:pr-32 lg:pt-52 lg:pb-52",
-  footer: "bg-[#1f2937]",
+  footer: "bg-[#1f2937] py-6",
 };
 
 const Contact = () => {

@@ -10,6 +10,64 @@ let styles = {
   section: "lg:ml-36 lg:-mt-20",
   projets:
     "text-center text-white pb-20 text-4xl font-extrabold lg:text-center lg:pb-40 lg:text-6xl",
+
+  blogHaut: "lg:flex lg:justify-around",
+
+  blog1div: "flex justify-center",
+  blog1div1: "rounded-lg shadow-lg bg-white max-w-sm",
+  blog1div1image: "rounded-t-lg",
+  blog1div2: "p-6",
+  blog1div2h5: "text-gray-900 text-xl font-medium mb-2",
+  blog1div2p: "text-gray-700 text-base mb-4",
+  blog1div2btn:
+    "inline-block px-6 py-2.5 bg-blue-900 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-800 hover:shadow-lg focus:ring-offset-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-600 active:shadow-lg transition duration-150 ease-in-out",
+
+  blog2div: "flex justify-center mt-20 lg:mt-0",
+  blog2div1: "rounded-lg shadow-lg bg-white max-w-sm",
+  blog2div1image: "rounded-t-lg",
+  blog2div2: "p-6",
+  blog2div2h5: "text-gray-900 text-xl font-medium mb-2",
+  blog2div2p: "text-gray-700 text-base mb-4",
+  blog2div2btn:
+    "inline-block px-6 py-2.5 bg-blue-900 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-800 hover:shadow-lg focus:ring-offset-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-600 active:shadow-lg transition duration-150 ease-in-out lg:mt-6",
+
+  blog3div: "flex justify-center mt-20 lg:mt-0",
+  blog3div1: "rounded-lg shadow-lg bg-white max-w-sm",
+  blog3div1image: "rounded-t-lg",
+  blog3div2: "p-6",
+  blog3div2h5: "text-gray-900 text-xl font-medium mb-2",
+  blog3div2p: "text-gray-700 text-base mb-4",
+  blog3div2btn:
+    "inline-block px-6 py-2.5 bg-blue-900 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-800 hover:shadow-lg focus:ring-offset-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-600 active:shadow-lg transition duration-150 ease-in-out",
+
+  blogBas: "lg:flex lg:justify-around",
+
+  blog4div: "flex justify-center mt-20",
+  blog4div1: "rounded-lg shadow-lg bg-white max-w-sm",
+  blog4div1image: "rounded-t-lg",
+  blog4div2: "p-6",
+  blog4div2h5: "text-gray-900 text-xl font-medium mb-2",
+  blog4div2p: "text-gray-700 text-base mb-4",
+  blog4div2btn:
+    "inline-block px-6 py-2.5 bg-blue-900 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-800 hover:shadow-lg focus:ring-offset-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-600 active:shadow-lg transition duration-150 ease-in-out",
+
+  blog5div: "flex justify-center mt-20",
+  blog5div1: "rounded-lg shadow-lg bg-white max-w-sm",
+  blog5div1image: "rounded-t-lg",
+  blog5div2: "p-6",
+  blog5div2h5: "text-gray-900 text-xl font-medium mb-2",
+  blog5div2p: "text-gray-700 text-base mb-4",
+  blog5div2btn:
+    "inline-block px-6 py-2.5 bg-blue-900 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-800 hover:shadow-lg focus:ring-offset-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-600 active:shadow-lg transition duration-150 ease-in-out",
+
+  blog6div: "flex justify-center mt-20",
+  blog6div1: "rounded-lg shadow-lg bg-white max-w-sm",
+  blog6div1image: "rounded-t-lg",
+  blog6div2: "p-6",
+  blog6div2h5: "text-gray-900 text-xl font-medium mb-2",
+  blog6div2p: "text-gray-700 text-base mb-4",
+  blog6div2btn:
+    "inline-block px-6 py-2.5 bg-blue-900 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-800 hover:shadow-lg focus:ring-offset-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-600 active:shadow-lg transition duration-150 ease-in-out lg:mt-6",
 };
 
 const ViewProjects = () => {
@@ -19,14 +77,14 @@ const ViewProjects = () => {
         <h1>Mes projets...</h1>
       </div>
       {/* lg: BLOG DU HAUT */}
-      <div className="lg:flex lg:justify-around">
+      <div className={styles.blogHaut}>
         {/* BLOG 1 */}
-        <div class="flex justify-center">
-          <div class="rounded-lg shadow-lg bg-white max-w-sm">
-            <Image src={Wireframe} class="rounded-t-lg" />
-            <div class="p-6">
-              <h5 class="text-gray-900 text-xl font-medium mb-2">Wireframe</h5>
-              <p class="text-gray-700 text-base mb-4">
+        <div class={styles.blog1div}>
+          <div class={styles.blog1div1}>
+            <Image src={Wireframe} className={styles.blog1div1image} />
+            <div class={styles.blog1div2}>
+              <h5 class={styles.blog1div2h5}>Wireframe</h5>
+              <p class={styles.blog1div2p}>
                 Ce projet est l&apos;une de nos premières expériences. Il
                 s&apos;agit d&apos;un projet qui vise à apprendre comment
                 préparer un zoning et un wireframe et à apprendre comment le
@@ -37,10 +95,7 @@ const ViewProjects = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                <button
-                  type="button"
-                  class=" inline-block px-6 py-2.5 bg-blue-900 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-800 hover:shadow-lg focus:ring-offset-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-600 active:shadow-lg transition duration-150 ease-in-out"
-                >
+                <button type="button" className={styles.blog1div2btn}>
                   Visitez
                 </button>
               </a>
@@ -48,14 +103,12 @@ const ViewProjects = () => {
           </div>
         </div>
         {/* BLOG 2 */}
-        <div class="flex justify-center mt-20 lg:mt-0">
-          <div class="rounded-lg shadow-lg bg-white max-w-sm">
-            <Image src={Landingpage} class="rounded-t-lg" />
-            <div class="p-6">
-              <h5 class="text-gray-900 text-xl font-medium mb-2">
-                Landing Page
-              </h5>
-              <p class="text-gray-700 text-base mb-4">
+        <div className={styles.blog2div}>
+          <div className={styles.blog2div1}>
+            <Image src={Landingpage} className={styles.blog2div1image} />
+            <div className={styles.blog2div2}>
+              <h5 className={styles.blog2div2h5}>Landing Page</h5>
+              <p className={styles.blog2div2p}>
                 Ce projet a pour but d&apos;apprendre à coder la page
                 d&apos;accueil d&apos;un site Web de manière responsive.
               </p>
@@ -64,10 +117,7 @@ const ViewProjects = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                <button
-                  type="button"
-                  class=" inline-block px-6 py-2.5 bg-blue-900 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-800 hover:shadow-lg focus:ring-offset-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-600 active:shadow-lg transition duration-150 ease-in-out"
-                >
+                <button type="button" className={styles.blog2div2btn}>
                   Visitez
                 </button>
               </a>
@@ -75,12 +125,12 @@ const ViewProjects = () => {
           </div>
         </div>
         {/* BLOG 3 */}
-        <div class="flex justify-center mt-20 lg:mt-0">
-          <div class="rounded-lg shadow-lg bg-white max-w-sm">
-            <Image src={Metacode} class="rounded-t-lg" />
-            <div class="p-6">
-              <h5 class="text-gray-900 text-xl font-medium mb-2">Metacode</h5>
-              <p class="text-gray-700 text-base mb-4">
+        <div className={styles.blog3div}>
+          <div className={styles.blog3div1}>
+            <Image src={Metacode} className={styles.blog3div1image} />
+            <div className={styles.blog3div2}>
+              <h5 className={styles.blog3div2h5}>Metacode</h5>
+              <p className={styles.blog3div2p}>
                 Ce projet est une travail d&apos;équipe. Il est préparée pour
                 apprendre comment construire et gérer une agence web, comment
                 déléguer des tâches sur github et comment faire les git merge
@@ -91,10 +141,7 @@ const ViewProjects = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                <button
-                  type="button"
-                  class=" inline-block px-6 py-2.5 bg-blue-900 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-800 hover:shadow-lg focus:ring-offset-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-600 active:shadow-lg transition duration-150 ease-in-out"
-                >
+                <button type="button" className={styles.blog3div2btn}>
                   Visitez
                 </button>
               </a>
@@ -103,14 +150,14 @@ const ViewProjects = () => {
         </div>
       </div>
       {/* lg: BLOG DU BAS */}
-      <div className="lg:flex lg:justify-around">
-        {/* BLOG 3 */}
-        <div class="flex justify-center mt-20">
-          <div class="rounded-lg shadow-lg bg-white max-w-sm">
-            <Image src={Mazebank} class="rounded-t-lg" />
-            <div class="p-6">
-              <h5 class="text-gray-900 text-xl font-medium mb-2">Maze bank</h5>
-              <p class="text-gray-700 text-base mb-4">
+      <div className={styles.blogBas}>
+        {/* BLOG 4 */}
+        <div className={styles.blog4div}>
+          <div className={styles.blog4div1}>
+            <Image src={Mazebank} className={styles.blog4div1image} />
+            <div className={styles.blog4div2}>
+              <h5 className={styles.blog4div2h5}>Maze bank</h5>
+              <p className={styles.blog4div2p}>
                 Il s&apos;agit d&apos;un système de compte bancaire codé pour
                 créer des transactions de dépôt et de retrait. Il est codé avec
                 html, css et javascript.
@@ -120,23 +167,20 @@ const ViewProjects = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                <button
-                  type="button"
-                  class=" inline-block px-6 py-2.5 bg-blue-900 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-800 hover:shadow-lg focus:ring-offset-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-600 active:shadow-lg transition duration-150 ease-in-out"
-                >
+                <button type="button" className={styles.blog4div2btn}>
                   Visitez
                 </button>
               </a>
             </div>
           </div>
         </div>
-        {/* BLOG 4 */}
-        <div class="flex justify-center mt-20">
-          <div class="rounded-lg shadow-lg bg-white max-w-sm">
-            <Image src={Portfolio} class="rounded-t-lg" />
-            <div class="p-6">
-              <h5 class="text-gray-900 text-xl font-medium mb-2">Portfolio</h5>
-              <p class="text-gray-700 text-base mb-4">
+        {/* BLOG 5 */}
+        <div className={styles.blog5div}>
+          <div className={styles.blog5div1}>
+            <Image src={Portfolio} className={styles.blog5div1image} />
+            <div className={styles.blog5div2}>
+              <h5 className={styles.blog5div2h5}>Portfolio</h5>
+              <p className={styles.blog5div2p}>
                 Ce projet est un projet Next.js. React.js y est également
                 utilisé. Il s&apos;agit d&apos;un travail individuel visant à
                 apprendre à utiliser un framework.
@@ -146,10 +190,7 @@ const ViewProjects = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                <button
-                  type="button"
-                  class=" inline-block px-6 py-2.5 bg-blue-900 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-800 hover:shadow-lg focus:ring-offset-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-600 active:shadow-lg transition duration-150 ease-in-out"
-                >
+                <button type="button" className={styles.blog5div2btn}>
                   Visitez
                 </button>
               </a>
@@ -157,12 +198,12 @@ const ViewProjects = () => {
           </div>
         </div>
         {/* BLOG 6 */}
-        <div class="flex justify-center mt-20">
-          <div class="rounded-lg shadow-lg bg-white max-w-sm">
-            <Image src={CVonline} class="rounded-t-lg" />
-            <div class="p-6">
-              <h5 class="text-gray-900 text-xl font-medium mb-2">CV</h5>
-              <p class="text-gray-700 text-base mb-4">
+        <div className={styles.blog6div}>
+          <div className={styles.blog6div1}>
+            <Image src={CVonline} className={styles.blog6div1image} />
+            <div className={styles.blog6div2}>
+              <h5 className={styles.blog6div2h5}>CV</h5>
+              <p className={styles.blog6div2p}>
                 Ce projet est codé en vanilla. Il ne contient que du html et du
                 css.
               </p>
@@ -171,10 +212,7 @@ const ViewProjects = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                <button
-                  type="button"
-                  class=" inline-block px-6 py-2.5 bg-blue-900 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-800 hover:shadow-lg focus:ring-offset-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-600 active:shadow-lg transition duration-150 ease-in-out"
-                >
+                <button type="button" className={styles.blog6div2btn}>
                   Visitez
                 </button>
               </a>
