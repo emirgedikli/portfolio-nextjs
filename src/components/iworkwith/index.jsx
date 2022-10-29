@@ -34,7 +34,7 @@ const IworkWith = () => {
   return (
     <section className={styles.section}>
       <div className={styles.iworkwith}>
-        <h1>Je travail avec...</h1>
+        <h1>Je travaille avec...</h1>
       </div>
       <div className={styles.div1}>
         {/* lg: left column */}
