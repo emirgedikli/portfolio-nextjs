@@ -13,7 +13,7 @@ let styles = {
 
   blogHaut: "lg:flex lg:justify-around",
 
-  blog1div: "flex justify-center",
+  blog1div: "flex justify-center lg:-ml-16",
   blog1div1: "rounded-lg shadow-lg bg-white max-w-sm",
   blog1div1image: "rounded-t-lg",
   blog1div2: "p-6",
@@ -42,7 +42,7 @@ let styles = {
 
   blogBas: "lg:flex lg:justify-around",
 
-  blog4div: "flex justify-center mt-20",
+  blog4div: "flex justify-center mt-20 lg:-ml-16",
   blog4div1: "rounded-lg shadow-lg bg-white max-w-sm",
   blog4div1image: "rounded-t-lg",
   blog4div2: "p-6",

@@ -5,7 +5,7 @@ import CallIcon from "@mui/icons-material/Call";
 import EmailIcon from "@mui/icons-material/Email";
 
 let styles = {
-  section: "flex justify-center lg:flex lg:justify-center",
+  section: "flex justify-center lg:flex lg:justify-center lg:-mr-24",
   sectionDiv:
     "w-full max-w-2xl px-6 py-4 mx-auto bg-gray-800 rounded-md shadow-md",
   h2: "text-3xl font-semibold text-center text-white",

@@ -19,9 +19,10 @@ import Javascript from "@src/assets/img/iworkwithIMG/Javascript.png";
 let styles = {
   section: "lg:ml-24 lg:-mt-20",
   div1: "lg:grid lg:grid-cols-2",
+  leftColumn: "lg:-ml-20",
   iworkwith:
     "text-center text-white pb-20 text-4xl font-extrabold lg:text-center lg:pb-40 lg:text-6xl",
-  div2: "lg:ml-20",
+  rightColumn: "lg:ml-20",
   ol: "relative border-l border-gray-200 dark:border-gray-700",
   li: "mb-10 ml-6 lg:mb-28 lg:ml-6",
   span: "flex absolute -left-3 justify-center items-center w-6 h-6 rounded-full ring-8 ring-white dark:ring-gray-900 bg-gray-300 lg:w-32 lg:h-32 lg:p-6",
@@ -37,7 +38,7 @@ const IworkWith = () => {
       </div>
       <div className={styles.div1}>
         {/* lg: left column */}
-        <div>
+        <div className={styles.leftColumn}>
           <ol class={styles.ol}>
             <li class={styles.li}>
               <span class={styles.span}>
@@ -98,7 +99,7 @@ const IworkWith = () => {
           </ol>
         </div>
         {/* lg: right column */}
-        <div className={styles.div2}>
+        <div className={styles.rightColumn}>
           <ol class={styles.ol}>
             <li class={styles.li}>
               <span class={styles.span}>
