@@ -1,4 +1,3 @@
-import Link from "next/link";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
@@ -39,7 +38,7 @@ const Links = () => {
         </div>
         <div>
           <a
-            href="https://twitter.com/emirwtaha"
+            href="https://twitter.com/byemirgedikli"
             rel="noreferrer"
             target="_blank"
           >

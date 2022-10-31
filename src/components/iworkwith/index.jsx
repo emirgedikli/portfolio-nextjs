@@ -30,7 +30,7 @@ let styles = {
   time: "block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 lg:pl-40 lg:pt-4",
 };
 
-const IworkWith = () => {
+const IworkWith = () => { 
   return (
     <section className={styles.section}>
       <div className={styles.iworkwith}>
