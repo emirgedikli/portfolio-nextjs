@@ -28,11 +28,11 @@ const Footer = () => {
           <div className={styles.div5}>
             <h6 className={styles.h6}>E-mail:</h6>
             <a
-              href="mailto:emirwtaha@gmail.com"
+              href="mailto:bygedikli@gmail.com"
               rel="noreferrer"
               target="_blank"
             >
-              emirwtaha@gmail.com
+              bygedikli@gmail.com
             </a>
           </div>
         </div>
