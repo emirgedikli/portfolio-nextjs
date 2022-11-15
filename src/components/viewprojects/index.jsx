@@ -73,7 +73,7 @@ let styles = {
 const ViewProjects = () => {
   return (
     <section className={styles.section}>
-      <div className={styles.projets}>
+      <div data-aos="fade-right" className={styles.projets}>
         <h1>Mes projets...</h1>
       </div>
       {/* lg: BLOG DU HAUT */}
