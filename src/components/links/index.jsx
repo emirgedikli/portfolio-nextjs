@@ -12,7 +12,13 @@ let styles = {
 const Links = () => {
   return (
     <>
-      <section className={styles.section}>
+      <section
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        data-aos-once="false"
+        className={styles.section}
+      >
         <div className={styles.pr}>
           <a
             href="https://github.com/emirgedikli"

@@ -73,13 +73,22 @@ let styles = {
 const ViewProjects = () => {
   return (
     <section className={styles.section}>
-      <div data-aos="fade-right" className={styles.projets}>
+      <div
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        data-aos-once="false"
+        className={styles.projets}
+      >
         <h1>Mes projets...</h1>
       </div>
       {/* lg: BLOG DU HAUT */}
       <div className={styles.blogHaut}>
         {/* BLOG 1 */}
-        <div class={styles.blog1div}>
+        <div
+          data-aos="fade-up-right"
+          data-aos-once="false"
+          class={styles.blog1div}
+        >
           <div class={styles.blog1div1}>
             <Image src={Wireframe} className={styles.blog1div1image} />
             <div class={styles.blog1div2}>
@@ -103,7 +112,11 @@ const ViewProjects = () => {
           </div>
         </div>
         {/* BLOG 2 */}
-        <div className={styles.blog2div}>
+        <div
+          data-aos="fade-up-right"
+          data-aos-once="false"
+          className={styles.blog2div}
+        >
           <div className={styles.blog2div1}>
             <Image src={Landingpage} className={styles.blog2div1image} />
             <div className={styles.blog2div2}>
@@ -125,7 +138,11 @@ const ViewProjects = () => {
           </div>
         </div>
         {/* BLOG 3 */}
-        <div className={styles.blog3div}>
+        <div
+          data-aos="fade-up-right"
+          data-aos-once="false"
+          className={styles.blog3div}
+        >
           <div className={styles.blog3div1}>
             <Image src={Metacode} className={styles.blog3div1image} />
             <div className={styles.blog3div2}>
@@ -152,7 +169,11 @@ const ViewProjects = () => {
       {/* lg: BLOG DU BAS */}
       <div className={styles.blogBas}>
         {/* BLOG 4 */}
-        <div className={styles.blog4div}>
+        <div
+          data-aos="fade-down-left"
+          data-aos-once="false"
+          className={styles.blog4div}
+        >
           <div className={styles.blog4div1}>
             <Image src={Mazebank} className={styles.blog4div1image} />
             <div className={styles.blog4div2}>
@@ -175,7 +196,11 @@ const ViewProjects = () => {
           </div>
         </div>
         {/* BLOG 5 */}
-        <div className={styles.blog5div}>
+        <div
+          data-aos="fade-down-left"
+          data-aos-once="false"
+          className={styles.blog5div}
+        >
           <div className={styles.blog5div1}>
             <Image src={Portfolio} className={styles.blog5div1image} />
             <div className={styles.blog5div2}>
@@ -198,7 +223,11 @@ const ViewProjects = () => {
           </div>
         </div>
         {/* BLOG 6 */}
-        <div className={styles.blog6div}>
+        <div
+          data-aos="fade-down-left"
+          data-aos-once="false"
+          className={styles.blog6div}
+        >
           <div className={styles.blog6div1}>
             <Image src={CVonline} className={styles.blog6div1image} />
             <div className={styles.blog6div2}>

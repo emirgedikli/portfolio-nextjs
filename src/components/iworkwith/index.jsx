@@ -35,12 +35,21 @@ let styles = {
 const IworkWith = () => {
   return (
     <section className={styles.section}>
-      <div className={styles.iworkwith}>
+      <div
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        data-aos-once="false"
+        className={styles.iworkwith}
+      >
         <h1>Je travaille avec...</h1>
       </div>
       <div className={styles.div1}>
         {/* lg: left column */}
-        <div className={styles.leftColumn}>
+        <div
+          data-aos="zoom-in"
+          data-aos-once="false"
+          className={styles.leftColumn}
+        >
           <ol className={styles.ol}>
             <li className={styles.li}>
               <span className={styles.span}>
@@ -108,7 +117,11 @@ const IworkWith = () => {
           </ol>
         </div>
         {/* lg: right column */}
-        <div className={styles.rightColumn}>
+        <div
+          data-aos="zoom-in"
+          data-aos-once="false"
+          className={styles.rightColumn}
+        >
           <ol className={styles.ol}>
             <li className={styles.li}>
               <span className={styles.span}>

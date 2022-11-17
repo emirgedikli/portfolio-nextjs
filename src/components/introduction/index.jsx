@@ -2,7 +2,6 @@ import Image from "next/image";
 import profil from "@src/assets/img/profilIMG/profil.png";
 import ViewBtn from "@src/components/viewbtn/index";
 import Links from "@src/components/links/index"
-import "animate.css";
 
 let styles = {
   section: "flex flex-col lg:grid lg:grid-cols-2",
@@ -22,7 +21,7 @@ let styles = {
 const Introduction = () => {
   return (
     <>
-      <section className={styles.section}>
+      <section  data-aos="flip-down" className={styles.section}>
         {/* lg: left column */}
         <div>
           <div className={styles.div1}>

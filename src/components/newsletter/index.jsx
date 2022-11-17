@@ -31,13 +31,20 @@ const Newsletter = () => {
     <>
       <section className={styles.section}>
         <div className={styles.sectionDiv}>
-          <h2 className={styles.h2}>Contactez-moi</h2>
+          <div data-aos="fade-left" data-aos-once="false">
+            <h2 className={styles.h2}>Contactez-moi</h2>
+            <p className={styles.p}>
+              Vous avez des idées à partager avec moi ? Écrivez maintenant !
+            </p>
+          </div>
 
-          <p className={styles.p}>
-            Vous avez des idées à partager avec moi ? Écrivez maintenant !
-          </p>
-
-          <div className={styles.div1}>
+          <div
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            data-aos-once="false"
+            className={styles.div1}
+          >
             <div className={styles.icons}>
               <LocationOnIcon />
 
@@ -73,7 +80,7 @@ const Newsletter = () => {
             </div>
 
             <div className={styles.div2divC}>
-              <button className={styles.sendBtn}>Envoyer</button>
+              <button data-aos="zoom-in-up" data-aos-once="false" className={styles.sendBtn}>Envoyer</button>
             </div>
           </div>
         </div>

@@ -1,5 +1,4 @@
 import Name from "@src/components/name/index";
-import "animate.css";
 
 let styles = {
   header: "lg:flex lg:py-10 lg:w-full",

@@ -16,7 +16,13 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.div}>
-        <div className={styles.div1}>
+        <div
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          data-aos-once="false"
+          className={styles.div1}
+        >
           <div className={styles.div3}>
             <h4>Contactez-moi:</h4>
           </div>
