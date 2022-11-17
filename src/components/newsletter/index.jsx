@@ -30,7 +30,7 @@ const Newsletter = () => {
             <div className={styles.icons}>
               <EmailIcon />
 
-              <span className={styles.spans}>emirwtaha@gmail.com</span>
+              <span className={styles.spans}>emir@bygedikli.dev</span>
             </div>
           </div>
 

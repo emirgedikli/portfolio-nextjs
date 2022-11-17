@@ -1,5 +1,5 @@
 let styles = {
-    section: "flex justify-center -mt-18 lg:flex lg:justify-center lg:-mr-24 lg:-mt-28",
+    section: "flex justify-center -mt-18 lg:flex lg:justify-center",
     sectionDiv: "w-full max-w-2xl px-6 mx-auto bg-transparent",
     h2: "text-3xl font-semibold text-center text-white",
     p: "mt-3 w-70 text-center text-white",
