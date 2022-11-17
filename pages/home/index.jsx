@@ -11,7 +11,7 @@ const HomePage = () => {
   return (
     <>
       <Head>
-        <title>Emir Gedikli</title>
+        <title>EG - Portfolio</title>
       </Head>
       <div className={styles.header}>
         <Header />

@@ -10,6 +10,8 @@ let styles = {
     div3: "fontArchivoBlack pt-6 text-3xl text-[#119ca3] lg:text-7xl",
     div4: "text-md fontNunito text-white pt-4 leading-loose lg:text-2xl",
     div5: "mt-8",
+    div6: "flex justify-center pt-12 lg:flex lg:justify-start",
   };
 
   export default styles;
+  

@@ -2,6 +2,7 @@ import styles from "@src/components/introduction/styles";
 import Image from "next/image";
 import profil from "@src/assets/img/profilIMG/profil.png";
 import ViewBtn from "@src/components/viewbtn/index";
+import Links from "@src/components/links/index"
 import "animate.css";
 
 const Introduction = () => {
@@ -16,7 +17,7 @@ const Introduction = () => {
               alt="profil"
               title="EmirGedikli"
               height={500}
-              width={450}
+              width={500}
               className={styles.Image}
             />
           </div>
@@ -42,6 +43,9 @@ const Introduction = () => {
           </div>
           <div className={styles.div5}>
             <ViewBtn />
+          </div>
+          <div className={styles.div6}>
+            <Links />
           </div>
         </div>
       </section>

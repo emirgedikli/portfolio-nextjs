@@ -42,6 +42,8 @@ export default function Document() {
           src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"
         />
         {/* tailwind elements */}
+        <script src="https://cdn.jsdelivr.net/npm/typped.js@2.0.12"></script>
+        {/* type */}
       </Head>
       <body>
         <Main />
