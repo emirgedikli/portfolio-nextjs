@@ -1,4 +1,3 @@
-import styles from "@pages/404/styles";
 import Link from "next/link";
 
 let styles = {
