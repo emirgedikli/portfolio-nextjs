@@ -1,6 +1,10 @@
-import styles from "@src/components/header/styles";
 import Name from "@src/components/name/index";
 import "animate.css";
+
+let styles = {
+  header: "lg:flex lg:py-10 lg:w-full",
+  name: "flex justify-center w-full py-8 lg:flex lg:justify-center lg:w-full",
+};
 
 const Header = () => {
   return (
