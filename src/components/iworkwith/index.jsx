@@ -115,7 +115,7 @@ const IworkWith = () => {
                 <Image src={Npm} />
               </span>
               <h3 className={styles.h3}>Npm</h3>
-              <time className={styles.time}>Depuis octobre 2022</time>
+              <time className={styles.time}>Depuis septembre 2022</time>
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
