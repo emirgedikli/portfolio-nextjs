@@ -1,3 +1,5 @@
+import "aos/dist/aos.css";
+
 let styles = {
   section: "flex justify-center lg:flex lg:justify-start",
   ViewBtn:

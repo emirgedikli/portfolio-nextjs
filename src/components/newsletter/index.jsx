@@ -1,6 +1,7 @@
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import CallIcon from "@mui/icons-material/Call";
 import EmailIcon from "@mui/icons-material/Email";
+import "aos/dist/aos.css";
 
 let styles = {
   section: "flex justify-center -mt-18 lg:flex lg:justify-center",

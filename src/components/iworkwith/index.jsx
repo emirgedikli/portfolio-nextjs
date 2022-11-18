@@ -17,6 +17,7 @@ import Git from "@src/assets/img/iworkwithIMG/Git.png";
 import Javascript from "@src/assets/img/iworkwithIMG/Javascript.png";
 import Npm from "@src/assets/img/iworkwithIMG/Npm.png";
 import Webflow from "@src/assets/img/iworkwithIMG/Webflow.png";
+import "aos/dist/aos.css";
 
 let styles = {
   section: "lg:ml-24 lg:-mt-20",

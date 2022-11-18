@@ -5,6 +5,7 @@ import Mazebank from "@src/assets/img/viewprojectsIMG/mazebank.png";
 import Metacode from "@src/assets/img/viewprojectsIMG/metacode.png";
 import Portfolio from "@src/assets/img/viewprojectsIMG/portfolio.png";
 import Wireframe from "@src/assets/img/viewprojectsIMG/wireframe.png";
+import "aos/dist/aos.css";
 
 let styles = {
   section: "lg:ml-36 lg:-mt-20",

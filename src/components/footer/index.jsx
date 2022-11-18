@@ -1,4 +1,5 @@
 import Links from "@src/components/links";
+import "aos/dist/aos.css";
 
 let styles = {
   footer: "fontNunito text-white opacity-90",
