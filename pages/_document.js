@@ -1,8 +1,12 @@
 import { Html, Head, Main, NextScript } from "next/document";
 
+let styles = {
+  html: "scroll-smooth",
+};
+
 export default function Document() {
   return (
-    <Html lang="fr">
+    <Html lang="fr" className={styles.html}>
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

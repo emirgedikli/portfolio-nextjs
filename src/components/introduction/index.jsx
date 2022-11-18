@@ -1,7 +1,7 @@
 import Image from "next/image";
 import profil from "@src/assets/img/profilIMG/profil.png";
 import ViewBtn from "@src/components/viewbtn/index";
-import Links from "@src/components/links/index"
+import Links from "@src/components/links/index";
 
 let styles = {
   section: "flex flex-col lg:grid lg:grid-cols-2",
@@ -15,13 +15,13 @@ let styles = {
   div3: "fontArchivoBlack pt-6 text-3xl text-[#119ca3] lg:text-7xl",
   div4: "text-md fontNunito text-white pt-4 leading-loose lg:text-2xl",
   div5: "mt-8",
-  div6: "flex justify-center pt-12 lg:flex lg:justify-start",
+  div6: "flex justify-center pt-10 lg:flex lg:justify-start lg:pt-0",
 };
 
 const Introduction = () => {
   return (
     <>
-      <section  data-aos="flip-down" className={styles.section}>
+      <section data-aos="flip-down" className={styles.section}>
         {/* lg: left column */}
         <div>
           <div className={styles.div1}>

@@ -31,7 +31,7 @@ const Newsletter = () => {
     <>
       <section className={styles.section}>
         <div className={styles.sectionDiv}>
-          <div data-aos="fade-left" data-aos-once="false">
+          <div data-aos="zoom-in-up" data-aos-once="false">
             <h2 className={styles.h2}>Contactez-moi</h2>
             <p className={styles.p}>
               Vous avez des idées à partager avec moi ? Écrivez maintenant !

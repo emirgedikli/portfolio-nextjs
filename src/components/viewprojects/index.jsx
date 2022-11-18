@@ -85,15 +85,15 @@ const ViewProjects = () => {
       <div className={styles.blogHaut}>
         {/* BLOG 1 */}
         <div
-          data-aos="fade-up-right"
+          data-aos="zoom-in-up"
           data-aos-once="false"
-          class={styles.blog1div}
+          className={styles.blog1div}
         >
-          <div class={styles.blog1div1}>
+          <div className={styles.blog1div1}>
             <Image src={Wireframe} className={styles.blog1div1image} />
-            <div class={styles.blog1div2}>
-              <h5 class={styles.blog1div2h5}>Wireframe</h5>
-              <p class={styles.blog1div2p}>
+            <div className={styles.blog1div2}>
+              <h5 className={styles.blog1div2h5}>Wireframe</h5>
+              <p className={styles.blog1div2p}>
                 Ce projet est l&apos;une de nos premières expériences. Il
                 s&apos;agit d&apos;un projet qui vise à apprendre comment
                 préparer un zoning et un wireframe et à apprendre comment le
@@ -113,7 +113,7 @@ const ViewProjects = () => {
         </div>
         {/* BLOG 2 */}
         <div
-          data-aos="fade-up-right"
+          data-aos="zoom-in-up"
           data-aos-once="false"
           className={styles.blog2div}
         >
@@ -139,7 +139,7 @@ const ViewProjects = () => {
         </div>
         {/* BLOG 3 */}
         <div
-          data-aos="fade-up-right"
+          data-aos="zoom-in-up"
           data-aos-once="false"
           className={styles.blog3div}
         >
@@ -170,7 +170,7 @@ const ViewProjects = () => {
       <div className={styles.blogBas}>
         {/* BLOG 4 */}
         <div
-          data-aos="fade-down-left"
+          data-aos="zoom-in-up"
           data-aos-once="false"
           className={styles.blog4div}
         >
@@ -197,7 +197,7 @@ const ViewProjects = () => {
         </div>
         {/* BLOG 5 */}
         <div
-          data-aos="fade-down-left"
+          data-aos="zoom-in-up"
           data-aos-once="false"
           className={styles.blog5div}
         >
@@ -224,7 +224,7 @@ const ViewProjects = () => {
         </div>
         {/* BLOG 6 */}
         <div
-          data-aos="fade-down-left"
+          data-aos="zoom-in-up"
           data-aos-once="false"
           className={styles.blog6div}
         >

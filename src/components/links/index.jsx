@@ -44,7 +44,7 @@ const Links = () => {
         </div>
         <div>
           <a
-            href="https://twitter.com/byemirgedikli"
+            href="https://twitter.com/bygedikli"
             rel="noreferrer"
             target="_blank"
           >
