@@ -1,7 +1,7 @@
 // Librairie
 import sgMail from "@sendgrid/mail";
 
-export default function handler(req, res) {
+const handler = (req, res) => {
   if (req.method !== "POST") {
     res.status(405).json({ message: "INVALID_METHOD" });
     return;
@@ -60,4 +60,6 @@ export default function handler(req, res) {
       return;
     }
   })();
-}
+};
+
+export default handler;
