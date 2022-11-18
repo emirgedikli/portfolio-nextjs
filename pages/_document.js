@@ -41,19 +41,21 @@ export default function Document() {
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
         />
-        <script
-          defer
-          src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"
-        />
         {/* tailwind element */}
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-        <script defer src="https://unpkg.com/aos@next/dist/aos.js%22%3E" />
-        <script defer>AOS.init();</script>
         {/* AOS */}
       </Head>
       <body>
         <Main />
         <NextScript />
+        <script
+          defer
+          src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"
+        />
+        {/* tailwind element */}
+        <script defer src="https://unpkg.com/aos@next/dist/aos.js%22%3E" />
+        <script defer>AOS.init();</script>
+        {/* AOS */}
       </body>
     </Html>
   );
