@@ -75,9 +75,6 @@ const Newsletter = () => {
                   type="email"
                   placeholder="Adresse email"
                 />
-                <p className="pt-4 text-yellow-500">
-                  Vous devez renseigner votre adresse email.
-                </p>
               </div>
             </div>
 
@@ -89,9 +86,6 @@ const Newsletter = () => {
                 rows="5"
                 placeholder="Bonjour..."
               ></textarea>
-              <p className="pt-4 text-yellow-500">
-                Vous devez renseigner le contenu de votre message.
-              </p>
             </div>
 
             <div className={styles.div2divC}>
