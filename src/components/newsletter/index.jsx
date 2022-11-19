@@ -45,7 +45,7 @@ const Newsletter = () => {
     if (!isLoading) {
       setIsLoading(true);
 
-      const response = await fetch("/pages/api/newsletter.js", {
+      const response = await fetch("/api/newsletter.js", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

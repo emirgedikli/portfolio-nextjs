@@ -50,9 +50,7 @@ const Introduction = () => {
           <div className={styles.div4}>
             <p>
               Étant actuellement en formation au sein de l&apos;Access Code
-              School, en tant que futur développeur web et web mobile, je suis à
-              la recherche d&apos;opportunités pour mon stage qui démarrera le
-              janvier 2023.
+              School, en tant que futur développeur web et web mobile.
             </p>
           </div>
           <div className={styles.div5}>
