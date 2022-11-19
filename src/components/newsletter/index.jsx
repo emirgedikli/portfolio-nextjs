@@ -1,8 +1,6 @@
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import CallIcon from "@mui/icons-material/Call";
 import EmailIcon from "@mui/icons-material/Email";
-import { useForm } from "react-hook-form";
-import { useState } from "react";
 import "aos/dist/aos.css";
 
 let styles = {
@@ -30,43 +28,6 @@ let styles = {
 };
 
 const Newsletter = () => {
-  // Variables
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm();
-
-  // State
-  const [isLoading, setIsLoading] = useState(false);
-
-  // Méthode
-  const onSubmitHandler = async (data) => {
-    if (!isLoading) {
-      setIsLoading(true);
-
-      const response = await fetch("/api/newsletter.js", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(data),
-      });
-
-      const result = await response.json();
-
-      setIsLoading(false);
-
-      if (!response.ok) {
-        console.log("error");
-      } else {
-        console.log("ok");
-        // Vider le formulaire
-        // Afficher un message de succès
-      }
-    }
-  };
-
   return (
     <>
       <section className={styles.section}>
@@ -104,10 +65,7 @@ const Newsletter = () => {
             </div>
           </div>
 
-          <form
-            onSubmit={handleSubmit(onSubmitHandler)}
-            className={styles.div2}
-          >
+          <form className={styles.div2}>
             <div className={styles.div2divA}>
               <div className={styles.div2divLabel}>
                 <label className={styles.email}>E-mail</label>
@@ -116,15 +74,10 @@ const Newsletter = () => {
                   className={styles.inputEmail}
                   type="email"
                   placeholder="Adresse email"
-                  {...register("email", {
-                    required: true,
-                  })}
                 />
-                {errors.email && (
-                  <p className="pt-4 text-yellow-500">
-                    Vous devez renseigner votre adresse email.
-                  </p>
-                )}
+                <p className="pt-4 text-yellow-500">
+                  Vous devez renseigner votre adresse email.
+                </p>
               </div>
             </div>
 
@@ -133,30 +86,23 @@ const Newsletter = () => {
 
               <textarea
                 className={styles.divBtextarea}
-                rows="4"
+                rows="5"
                 placeholder="Bonjour..."
-                {...register("message", {
-                  required: true,
-                })}
               ></textarea>
-              {errors.message && (
-                <p className="pt-4 text-yellow-500">
-                  Vous devez renseigner le contenu de votre message.
-                </p>
-              )}
+              <p className="pt-4 text-yellow-500">
+                Vous devez renseigner le contenu de votre message.
+              </p>
             </div>
 
             <div className={styles.div2divC}>
-              {!isLoading && (
-                <button
-                  data-aos="zoom-in-up"
-                  data-aos-once="false"
-                  className={styles.sendBtn}
-                  type="submit"
-                >
-                  Envoyer
-                </button>
-              )}
+              <button
+                data-aos="zoom-in-up"
+                data-aos-once="false"
+                className={styles.sendBtn}
+                type="submit"
+              >
+                Envoyer
+              </button>
             </div>
           </form>
         </div>
