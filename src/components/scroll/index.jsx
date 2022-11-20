@@ -6,12 +6,22 @@ let styles = {
 };
 
 const Scroll = () => {
+  function hideBtn() {
+    const myButton = document.getElementById("myBtn");
+    myButton.style.display = "none";
+  }
+
+  function topFunction() {
+    console.log(document.body);
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    hideBtn();
+  }
+
   return (
-    <section id="section2">
-      <a href="#section1" className={styles.div}>
-        <ArrowUpwardIcon />
-      </a>
-    </section>
+    <button onClick={topFunction} id="myBtn" className={styles.div}>
+      <ArrowUpwardIcon />
+    </button>
   );
 };
 

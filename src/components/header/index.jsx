@@ -8,7 +8,7 @@ let styles = {
 
 const Header = () => {
   return (
-    <header id="section1" className={styles.header}>
+    <header className={styles.header}>
       <div className={styles.name}>
         <Name />
       </div>
