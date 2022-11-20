@@ -1,11 +1,11 @@
 import Head from "next/head";
-import Header from "@src/components/header";
-import Introduction from "@src/components/introduction";
-import ViewProjects from "@src/components/projects";
-import IworkWith from "@src/components/skills";
-import Newsletter from "@src/components/newsletter";
-import Scroll from "@src/components/scroll";
-import Footer from "@src/components/footer";
+import Header from "@components/header";
+import Introduction from "@components/introduction";
+import ViewProjects from "@components/projects";
+import IworkWith from "@components/skills";
+import Newsletter from "@components/newsletter";
+import Scroll from "@components/scroll";
+import Footer from "@components/footer";
 
 let styles = {
   header: "bg-gray-900",

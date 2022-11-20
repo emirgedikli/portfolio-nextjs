@@ -1,4 +1,4 @@
-import Links from "@src/components/links";
+import Links from "@components/links";
 import "aos/dist/aos.css";
 
 let styles = {
