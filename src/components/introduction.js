@@ -1,7 +1,7 @@
 import Image from "next/image";
-import profil from "@src/assets/img/profilIMG/profil.png";
-import ViewBtn from "@src/components/viewbtn/index";
-import Links from "@src/components/links/index";
+import profil from "@src/assets/img/profil.png";
+import ViewBtn from "@src/components/viewBtn";
+import Links from "@src/components/links";
 import "aos/dist/aos.css";
 
 let styles = {

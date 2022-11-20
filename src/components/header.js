@@ -1,4 +1,4 @@
-import Name from "@src/components/name/index";
+import Name from "@src/components/name";
 import "aos/dist/aos.css";
 
 let styles = {
