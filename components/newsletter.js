@@ -89,14 +89,14 @@ const Newsletter = () => {
             </div>
 
             <div className={styles.div2divC}>
-              <a
-                href="/"
+              <button
                 data-aos="zoom-in-up"
                 data-aos-once="false"
+                type="submit"
                 className={styles.sendBtn}
               >
                 Envoyer
-              </a>
+              </button>
             </div>
           </form>
         </div>

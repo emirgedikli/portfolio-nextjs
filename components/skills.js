@@ -96,23 +96,16 @@ const IworkWith = () => {
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
-                <Image src={Wordpress} />
-              </span>
-              <h3 className={styles.h3}>Wordpress</h3>
-              <time className={styles.time}>Depuis septembre 2022</time>
-            </li>
-            <li className={styles.li}>
-              <span className={styles.span}>
                 <Image src={Webpack} />
               </span>
               <h3 className={styles.h3}>Webpack</h3>
-              <time className={styles.time}>Depuis septembre 2022</time>
+              <time className={styles.time}>Depuis août 2022</time>
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
-                <Image src={Nodejs} />
+                <Image src={Wordpress} />
               </span>
-              <h3 className={styles.h3}>Node js</h3>
+              <h3 className={styles.h3}>Wordpress</h3>
               <time className={styles.time}>Depuis septembre 2022</time>
             </li>
           </ol>
@@ -124,6 +117,13 @@ const IworkWith = () => {
           className={styles.rightColumn}
         >
           <ol className={styles.ol}>
+            <li className={styles.li}>
+              <span className={styles.span}>
+                <Image src={Nodejs} />
+              </span>
+              <h3 className={styles.h3}>Node js</h3>
+              <time className={styles.time}>Depuis septembre 2022</time>
+            </li>
             <li className={styles.li}>
               <span className={styles.span}>
                 <Image src={Npm} />
@@ -157,34 +157,20 @@ const IworkWith = () => {
                 <Image src={PhpmyAdmin} />
               </span>
               <h3 className={styles.h3}>Php My Admin</h3>
-              <time className={styles.time}>Depuis octobre 2022</time>
+              <time className={styles.time}>Depuis novembre 2022</time>
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
                 <Image src={Sql} />
               </span>
               <h3 className={styles.h3}>Sql</h3>
-              <time className={styles.time}>Depuis octobre 2022</time>
+              <time className={styles.time}>Depuis novembre 2022</time>
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
                 <Image src={Webflow} />
               </span>
               <h3 className={styles.h3}>Webflow</h3>
-              <time className={styles.time}>Depuis novembre 2022</time>
-            </li>
-            <li className={styles.li}>
-              <span className={styles.span}>
-                <Image src={Symfony} />
-              </span>
-              <h3 className={styles.h3}>Symfony</h3>
-              <time className={styles.time}>Depuis décembre 2022</time>
-            </li>
-            <li className={styles.li}>
-              <span className={styles.span}>
-                <Image src={Mongodb} />
-              </span>
-              <h3 className={styles.h3}>Mongo db</h3>
               <time className={styles.time}>Depuis décembre 2022</time>
             </li>
           </ol>
