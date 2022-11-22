@@ -1,7 +1,7 @@
 import Image from "next/image";
-import profil from "@assets/img/profil.png";
-import ViewBtn from "@components/viewBtn";
-import Links from "@components/links";
+import profil from "@src/assets/img/profil.png";
+import ViewBtn from "src/components/viewBtn";
+import Links from "src/components/links";
 import "aos/dist/aos.css";
 
 let styles = {
@@ -10,8 +10,8 @@ let styles = {
   Image:
     "rounded-3xl max-w-xs hover:scale-110 transition duration-300 ease-in-out",
   div2: "pt-6 opacity-90",
-  div2h2: "text-white text-md lg:text-3xl",
-  div2span:
+  div2_h2: "text-white text-md lg:text-3xl",
+  div2_span:
     "btn-shine fontFjallaOne text-3xl font-bold text-[#db6e42] pl-1 lg:text-5xl",
   div3: "fontArchivoBlack pt-6 text-3xl text-[#119ca3] lg:text-7xl",
   div4: "text-md fontNunito text-white pt-4 leading-loose lg:text-2xl",
@@ -39,9 +39,9 @@ const Introduction = () => {
         {/* lg: right column */}
         <div>
           <div className={styles.div2}>
-            <h2 className={styles.div2h2}>
+            <h2 className={styles.div2_h2}>
               Bonjour! Je suis
-              <span className={styles.div2span}>Emir Gedikli</span>
+              <span className={styles.div2_span}>Emir Gedikli</span>
             </h2>
           </div>
           <div className={styles.div3}>

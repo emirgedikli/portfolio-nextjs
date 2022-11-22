@@ -1,10 +1,10 @@
 import Image from "next/image";
-import CVonline from "@assets/img/projectsIMG/cvonline.png";
-import Landingpage from "@assets/img/projectsIMG/landingpage.png";
-import Mazebank from "@assets/img/projectsIMG/mazebank.png";
-import Metacode from "@assets/img/projectsIMG/metacode.png";
-import Portfolio from "@assets/img/projectsIMG/portfolio.png";
-import Wireframe from "@assets/img/projectsIMG/wireframe.png";
+import CVonline from "@src/assets/img/projectsIMG/cvonline.png";
+import Landingpage from "@src/assets/img/projectsIMG/landingpage.png";
+import Mazebank from "@src/assets/img/projectsIMG/mazebank.png";
+import Metacode from "@src/assets/img/projectsIMG/metacode.png";
+import Portfolio from "@src/assets/img/projectsIMG/portfolio.png";
+import Wireframe from "@src/assets/img/projectsIMG/wireframe.png";
 import "aos/dist/aos.css";
 
 let styles = {

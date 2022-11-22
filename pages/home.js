@@ -1,11 +1,10 @@
 import Head from "next/head";
-import Header from "@components/header";
-import Introduction from "@components/introduction";
-import ViewProjects from "@components/projects";
-import IworkWith from "@components/skills";
-import Newsletter from "@components/newsletter";
-import Scroll from "@components/scroll";
-import Footer from "@components/footer";
+import Header from "@src/components/header";
+import Introduction from "@src/components/introduction";
+import ViewProjects from "@src/components/projects";
+import IworkWith from "@src/components/skills";
+import Newsletter from "@src/components/newsletter";
+import Footer from "@src/components/footer";
 
 let styles = {
   header: "bg-gray-900",
@@ -39,9 +38,6 @@ const HomePage = () => {
       </div>
       <div className={styles.newsletter}>
         <Newsletter />
-      </div>
-      <div>
-        <Scroll />
       </div>
       <div className={styles.footer}>
         <Footer />
