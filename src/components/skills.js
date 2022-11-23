@@ -2,7 +2,7 @@ import Image from "next/image";
 import Html from "@src/assets/img/skillsIMG/Html.png";
 import Css from "@src/assets/img/skillsIMG/Css.png";
 import Webpack from "@src/assets/img/skillsIMG/Webpack.png";
-import Bootstrap from "@src/assets/img/skillsIMG/Bootstrap.png";
+import Mui from "@src/assets/img/skillsIMG/Mui.png";
 import Tailwind from "@src/assets/img/skillsIMG/Tailwind.png";
 import Wordpress from "@src/assets/img/skillsIMG/Wordpress.png";
 import Reactjs from "@src/assets/img/skillsIMG/Reactjs.png";
@@ -80,9 +80,9 @@ const IworkWith = () => {
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
-                <Image src={Bootstrap} />
+                <Image src={Mui} />
               </span>
-              <h3 className={styles.h3}>Bootstrap</h3>
+              <h3 className={styles.h3}>MaterialUI</h3>
               <time className={styles.time}>Depuis juillet 2022</time>
             </li>
             <li className={styles.li}>
