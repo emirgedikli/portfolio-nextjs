@@ -144,15 +144,15 @@ const IworkWith = () => {
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
-                <Image src={Github} />
-              </span>
-              <h3 className={styles.h3}>Github</h3>
-            </li>
-            <li className={styles.li}>
-              <span className={styles.span}>
                 <Image src={Netlify} />
               </span>
               <h3 className={styles.h3}>Netlify</h3>
+            </li>
+            <li className={styles.li}>
+              <span className={styles.span}>
+                <Image src={Github} />
+              </span>
+              <h3 className={styles.h3}>Github</h3>
             </li>
           </ol>
         </div>
