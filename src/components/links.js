@@ -1,7 +1,6 @@
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import TwitterIcon from "@mui/icons-material/Twitter";
 import "aos/dist/aos.css";
 
 let styles = {
@@ -41,15 +40,6 @@ const Links = () => {
         <div className={styles.px}>
           <a href="tel:0033767245024">
             <WhatsAppIcon sx={{ fontSize: 40 }} />
-          </a>
-        </div>
-        <div>
-          <a
-            href="https://twitter.com/bygedikli"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <TwitterIcon sx={{ fontSize: 40 }} />
           </a>
         </div>
       </section>
