@@ -61,7 +61,7 @@ const Newsletter = () => {
             <div className={styles.icons}>
               <EmailIcon />
 
-              <span className={styles.spans}>emir@bygedikli.dev</span>
+              <span className={styles.spans}>bygedikli@gmail.com</span>
             </div>
           </div>
 
