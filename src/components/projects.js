@@ -101,7 +101,7 @@ const ViewProjects = () => {
                 mettre en code.
               </p>
               <a
-                href="https://int-wireframe.netlify.app/"
+                href="https://wireframe-emir.netlify.app/"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -127,7 +127,7 @@ const ViewProjects = () => {
                 d&apos;accueil d&apos;un site Web de manière responsive.
               </p>
               <a
-                href="https://int-landing-page.netlify.app/"
+                href="https://landingpage-emir.netlify.app/"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -185,7 +185,7 @@ const ViewProjects = () => {
                 html, css et javascript.
               </p>
               <a
-                href="https://sb-mazebank.netlify.app/"
+                href="https://mazebank-emir.netlify.app/"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -212,7 +212,7 @@ const ViewProjects = () => {
                 apprendre à utiliser un framework.
               </p>
               <a
-                href="https://gedikli-portfolio.netlify.app/"
+                href="https://bygedikli.dev/"
                 rel="noreferrer"
                 target="_blank"
               >
