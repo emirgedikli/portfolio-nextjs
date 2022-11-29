@@ -63,18 +63,6 @@ const IworkWith = () => {
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
-                <Image src={Javascript} />
-              </span>
-              <h3 className={styles.h3}>Javascript</h3>
-            </li>
-            <li className={styles.li}>
-              <span className={styles.span}>
-                <Image src={Webpack} />
-              </span>
-              <h3 className={styles.h3}>Webpack</h3>
-            </li>
-            <li className={styles.li}>
-              <span className={styles.span}>
                 <Image src={Tailwind} />
               </span>
               <h3 className={styles.h3}>Tailwind</h3>
@@ -87,15 +75,27 @@ const IworkWith = () => {
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
-                <Image src={Wordpress} />
+                <Image src={Javascript} />
               </span>
-              <h3 className={styles.h3}>Wordpress</h3>
+              <h3 className={styles.h3}>Javascript</h3>
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
-                <Image src={Webflow} />
+                <Image src={Reactjs} />
               </span>
-              <h3 className={styles.h3}>Webflow</h3>
+              <h3 className={styles.h3}>React js</h3>
+            </li>
+            <li className={styles.li}>
+              <span className={styles.span}>
+                <Image src={Nodejs} />
+              </span>
+              <h3 className={styles.h3}>Node js</h3>
+            </li>
+            <li className={styles.li}>
+              <span className={styles.span}>
+                <Image src={Webpack} />
+              </span>
+              <h3 className={styles.h3}>Webpack</h3>
             </li>
           </ol>
         </div>
@@ -108,15 +108,15 @@ const IworkWith = () => {
           <ol className={styles.ol}>
             <li className={styles.li}>
               <span className={styles.span}>
-                <Image src={Nodejs} />
+                <Image src={Wordpress} />
               </span>
-              <h3 className={styles.h3}>Node js</h3>
+              <h3 className={styles.h3}>Wordpress</h3>
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
-                <Image src={Reactjs} />
+                <Image src={Webflow} />
               </span>
-              <h3 className={styles.h3}>React js</h3>
+              <h3 className={styles.h3}>Webflow</h3>
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
