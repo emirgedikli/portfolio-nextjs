@@ -13,7 +13,7 @@ let styles = {
   div2_h2: "text-white text-md lg:text-3xl",
   div2_span:
     "btn-shine fontFjallaOne text-3xl font-bold text-[#db6e42] pl-1 lg:text-5xl",
-  div3: "fontArchivoBlack pt-6 text-3xl text-[#119ca3] lg:text-7xl",
+  div3: "fontArchivoBlack pt-6 text-3xl text-[#119ca3] lg:text-6xl",
   div4: "text-md fontNunito text-white pt-4 leading-loose lg:text-2xl",
   div5: "mt-8",
   div6: "flex justify-center pt-10 lg:flex lg:justify-start lg:pt-0",
@@ -51,7 +51,10 @@ const Introduction = () => {
           <div className={styles.div4}>
             <p>
               Étant actuellement en formation au sein de l&apos;Access Code
-              School, en tant que futur développeur web et web mobile.
+              School,
+            </p>
+            <p>
+              en tant que futur développeur web et web mobile.
             </p>
           </div>
           <div className={styles.div5}>
