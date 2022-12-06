@@ -10,7 +10,7 @@ import Netlify from "@src/assets/img/skillsIMG/Netlify.png";
 import Nodejs from "@src/assets/img/skillsIMG/Nodejs.png";
 import Git from "@src/assets/img/skillsIMG/Git.png";
 import Javascript from "@src/assets/img/skillsIMG/Javascript.png";
-import Mongodb from "@src/assets/img/skillsIMG/Mongodb";
+import Mongodb from "@src/assets/img/skillsIMG/Mongodb.png";
 import "aos/dist/aos.css";
 
 let styles = {
