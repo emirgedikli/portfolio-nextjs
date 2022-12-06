@@ -4,17 +4,13 @@ import Css from "@src/assets/img/skillsIMG/Css.png";
 import Webpack from "@src/assets/img/skillsIMG/Webpack.png";
 import Mui from "@src/assets/img/skillsIMG/Mui.png";
 import Tailwind from "@src/assets/img/skillsIMG/Tailwind.png";
-import Wordpress from "@src/assets/img/skillsIMG/Wordpress.png";
 import Reactjs from "@src/assets/img/skillsIMG/Reactjs.png";
-import Mysql from "@src/assets/img/skillsIMG/Mysql.png";
 import Github from "@src/assets/img/skillsIMG/Github.png";
 import Netlify from "@src/assets/img/skillsIMG/Netlify.png";
-import Sql from "@src/assets/img/skillsIMG/Sql.png";
 import Nodejs from "@src/assets/img/skillsIMG/Nodejs.png";
 import Git from "@src/assets/img/skillsIMG/Git.png";
 import Javascript from "@src/assets/img/skillsIMG/Javascript.png";
-import Npm from "@src/assets/img/skillsIMG/Npm.png";
-import Webflow from "@src/assets/img/skillsIMG/Webflow.png";
+import Mongodb from "@src/assets/img/skillsIMG/Mongodb";
 import "aos/dist/aos.css";
 
 let styles = {
@@ -85,12 +81,6 @@ const IworkWith = () => {
               </span>
               <h3 className={styles.h3}>Webpack</h3>
             </li>
-            <li className={styles.li}>
-              <span className={styles.span}>
-                <Image src={Reactjs} />
-              </span>
-              <h3 className={styles.h3}>React js</h3>
-            </li>
           </ol>
         </div>
         {/* lg: right column */}
@@ -102,27 +92,21 @@ const IworkWith = () => {
           <ol className={styles.ol}>
             <li className={styles.li}>
               <span className={styles.span}>
+                <Image src={Reactjs} />
+              </span>
+              <h3 className={styles.h3}>React js</h3>
+            </li>
+            <li className={styles.li}>
+              <span className={styles.span}>
                 <Image src={Nodejs} />
               </span>
               <h3 className={styles.h3}>Node js</h3>
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
-                <Image src={Mysql} />
+                <Image src={Mongodb} />
               </span>
-              <h3 className={styles.h3}>Mysql</h3>
-            </li>
-            <li className={styles.li}>
-              <span className={styles.span}>
-                <Image src={Sql} />
-              </span>
-              <h3 className={styles.h3}>Sql</h3>
-            </li>
-            <li className={styles.li}>
-              <span className={styles.span}>
-                <Image src={Npm} />
-              </span>
-              <h3 className={styles.h3}>Npm</h3>
+              <h3 className={styles.h3}>Mongodb</h3>
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
