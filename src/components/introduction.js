@@ -40,18 +40,18 @@ const Introduction = () => {
         <div>
           <div className={styles.div2}>
             <h2 className={styles.div2_h2}>
-              Bonjour! Je suis
+              Hello! I am
               <span className={styles.div2_span}>Emir Gedikli</span>
             </h2>
           </div>
           <div className={styles.div3}>
-            <h1>Développeur Web</h1>
-            <h1>Front-end</h1>
+            <h1>Web Developer</h1>
+            <h1>Frontend</h1>
           </div>
           <div className={styles.div4}>
             <p>
-              Étant actuellement en formation au sein de l&apos;Access Code
-              School, en tant que futur développeur web et web mobile.
+              Being currently in training at the Access Code School, as a future
+              web and mobile web developer.
             </p>
           </div>
           <div className={styles.div5}>

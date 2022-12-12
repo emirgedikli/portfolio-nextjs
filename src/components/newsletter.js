@@ -33,9 +33,9 @@ const Newsletter = () => {
       <section className={styles.section}>
         <div className={styles.section_div}>
           <div data-aos="zoom-in-up" data-aos-once="false">
-            <h2 className={styles.h2}>Contactez-moi</h2>
+            <h2 className={styles.h2}>Contact me</h2>
             <p className={styles.p}>
-              Vous avez des idées à partager avec moi ? Écrivez maintenant !
+              Do you have ideas to share with me? Write now!
             </p>
           </div>
 
@@ -84,7 +84,7 @@ const Newsletter = () => {
               <textarea
                 className={styles.divB_textarea}
                 rows="5"
-                placeholder="Bonjour..."
+                placeholder="Hello..."
               ></textarea>
             </div>
 

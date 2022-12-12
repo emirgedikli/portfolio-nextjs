@@ -80,7 +80,7 @@ const ViewProjects = () => {
         data-aos-once="false"
         className={styles.projets}
       >
-        <h1>Mes projets...</h1>
+        <h1>My projects...</h1>
       </div>
       {/* lg: BLOG DU HAUT */}
       <div className={styles.blogHaut}>
@@ -95,10 +95,9 @@ const ViewProjects = () => {
             <div className={styles.blog1div2}>
               <h5 className={styles.blog1div2h5}>Wireframe</h5>
               <p className={styles.blog1div2p}>
-                Ce projet est l&apos;une de nos premières expériences. Il
-                s&apos;agit d&apos;un projet qui vise à apprendre comment
-                préparer un zoning et un wireframe et à apprendre comment le
-                mettre en code.
+                This project is one of our first experiences. It is a project
+                that aims to learn how to prepare a zoning prepare a zoning and
+                a wireframe and learn how to put it in put it into code.
               </p>
               <a
                 href="https://wireframe-emir.netlify.app/"
@@ -106,7 +105,7 @@ const ViewProjects = () => {
                 target="_blank"
               >
                 <button type="button" className={styles.blog1div2btn}>
-                  Visitez
+                  Visit
                 </button>
               </a>
             </div>
@@ -123,8 +122,8 @@ const ViewProjects = () => {
             <div className={styles.blog2div2}>
               <h5 className={styles.blog2div2h5}>Landing Page</h5>
               <p className={styles.blog2div2p}>
-                Ce projet a pour but d&apos;apprendre à coder la page
-                d&apos;accueil d&apos;un site Web de manière responsive.
+                The goal of this project is to learn how to code the homepage of
+                a website in a responsive way.
               </p>
               <a
                 href="https://landingpage-emir.netlify.app/"
@@ -132,7 +131,7 @@ const ViewProjects = () => {
                 target="_blank"
               >
                 <button type="button" className={styles.blog2div2btn}>
-                  Visitez
+                  Visit
                 </button>
               </a>
             </div>
@@ -149,10 +148,9 @@ const ViewProjects = () => {
             <div className={styles.blog3div2}>
               <h5 className={styles.blog3div2h5}>Metacode</h5>
               <p className={styles.blog3div2p}>
-                Ce projet est une travail d&apos;équipe. Il est préparée pour
-                apprendre comment construire et gérer une agence web, comment
-                déléguer des tâches sur github et comment faire les git merge
-                etc.
+                This project is a team effort. It is prepared to learn how to
+                build and manage a web agency, how to delegate tasks on github
+                and how to do git merge etc.
               </p>
               <a
                 href="https://meta-code.netlify.app/"
@@ -160,7 +158,7 @@ const ViewProjects = () => {
                 target="_blank"
               >
                 <button type="button" className={styles.blog3div2btn}>
-                  Visitez
+                  Visit
                 </button>
               </a>
             </div>
@@ -180,9 +178,9 @@ const ViewProjects = () => {
             <div className={styles.blog4div2}>
               <h5 className={styles.blog4div2h5}>Maze bank</h5>
               <p className={styles.blog4div2p}>
-                Il s&apos;agit d&apos;un système de compte bancaire codé pour
-                créer des transactions de dépôt et de retrait. Il est codé avec
-                html, css et javascript.
+                It is an encrypted bank account system for creating deposit and
+                withdrawal transactions. It is coded with html, css and
+                javascript.
               </p>
               <a
                 href="https://mazebank-emir.netlify.app/"
@@ -190,7 +188,7 @@ const ViewProjects = () => {
                 target="_blank"
               >
                 <button type="button" className={styles.blog4div2btn}>
-                  Visitez
+                  Visit
                 </button>
               </a>
             </div>
@@ -207,17 +205,12 @@ const ViewProjects = () => {
             <div className={styles.blog5div2}>
               <h5 className={styles.blog5div2h5}>Portfolio</h5>
               <p className={styles.blog5div2p}>
-                Ce projet est un projet Next.js. React.js y est également
-                utilisé. Il s&apos;agit d&apos;un travail individuel visant à
-                apprendre à utiliser un framework.
+                This project is a Next.js project. React.js is also used. It is
+                an individual work to learn how to use a framework.
               </p>
-              <a
-                href="https://bygedikli.dev/"
-                rel="noreferrer"
-                target="_blank"
-              >
+              <a href="https://bygedikli.dev/" rel="noreferrer" target="_blank">
                 <button type="button" className={styles.blog5div2btn}>
-                  Visitez
+                  Visit
                 </button>
               </a>
             </div>
@@ -234,8 +227,7 @@ const ViewProjects = () => {
             <div className={styles.blog6div2}>
               <h5 className={styles.blog6div2h5}>CV</h5>
               <p className={styles.blog6div2p}>
-                Ce projet est codé en vanilla. Il ne contient que du html et du
-                css.
+                This project is coded in vanilla. It contains only html and css.
               </p>
               <a
                 href="https://cv-emir.netlify.app/"
@@ -243,7 +235,7 @@ const ViewProjects = () => {
                 target="_blank"
               >
                 <button type="button" className={styles.blog6div2btn}>
-                  Visitez
+                  Visit
                 </button>
               </a>
             </div>

@@ -35,7 +35,7 @@ const IworkWith = () => {
         data-aos-once="false"
         className={styles.iworkwith}
       >
-        <h1>Je travaille avec...</h1>
+        <h1>I work with...</h1>
       </div>
       <div className={styles.div1}>
         {/* lg: left column */}

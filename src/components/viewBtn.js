@@ -16,7 +16,7 @@ const ViewBtn = () => {
           target="_blank"
           className={styles.viewBtn}
         >
-          Voir CV
+          View Resume
         </a>
       </section>
     </>

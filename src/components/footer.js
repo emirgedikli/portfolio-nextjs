@@ -25,7 +25,7 @@ const Footer = () => {
           className={styles.div1}
         >
           <div className={styles.div3}>
-            <h4>Contactez-moi:</h4>
+            <h4>Contact me:</h4>
           </div>
           <hr className={styles.hr} />
           <div className={styles.div4}>
