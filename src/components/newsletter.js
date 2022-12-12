@@ -95,7 +95,7 @@ const Newsletter = () => {
                 type="submit"
                 className={styles.sendBtn}
               >
-                Envoyer
+                Send
               </button>
             </div>
           </form>
