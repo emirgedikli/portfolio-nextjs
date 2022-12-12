@@ -45,8 +45,7 @@ const Introduction = () => {
             </h2>
           </div>
           <div className={styles.div3}>
-            <h1>Web Developer</h1>
-            <h1>Frontend</h1>
+            <h1>Frontend Developer</h1>
           </div>
           <div className={styles.div4}>
             <p>
