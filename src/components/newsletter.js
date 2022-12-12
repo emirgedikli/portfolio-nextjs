@@ -73,7 +73,7 @@ const Newsletter = () => {
                 <input
                   className={styles.input_email}
                   type="email"
-                  placeholder="Adresse email"
+                  placeholder="E-mail address"
                 />
               </div>
             </div>
