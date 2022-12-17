@@ -16,7 +16,7 @@ import Wordpress from "@src/assets/img/skillsIMG/Wordpress.png";
 import Sass from "@src/assets/img/skillsIMG/Sass.png";
 import Nextjs from "@src/assets/img/skillsIMG/Nextjs.png";
 import Figma from "@src/assets/img/skillsIMG/Figma.png";
-import StarUML from "@src/assets/img/skillsIMG/StarUML.png";
+import StarUML from "@src/assets/img/skillsIMG/Staruml.png";
 import Photoshop from "@src/assets/img/skillsIMG/Photoshop.png";
 import Excel from "@src/assets/img/skillsIMG/Excel.png";
 import Php from "@src/assets/img/skillsIMG/Php.png";
