@@ -11,6 +11,17 @@ import Nodejs from "@src/assets/img/skillsIMG/Nodejs.png";
 import Git from "@src/assets/img/skillsIMG/Git.png";
 import Javascript from "@src/assets/img/skillsIMG/Javascript.png";
 import Mongodb from "@src/assets/img/skillsIMG/Mongodb.png";
+import Webflow from "@src/assets/img/skillsIMG/Webflow.png";
+import Wordpress from "@src/assets/img/skillsIMG/Wordpress.png";
+import Sass from "@src/assets/img/skillsIMG/Sass.png";
+import Nextjs from "@src/assets/img/skillsIMG/Nextjs.png";
+import Figma from "@src/assets/img/skillsIMG/Figma.png";
+import StarUML from "@src/assets/img/skillsIMG/StarUML.png";
+import Photoshop from "@src/assets/img/skillsIMG/Photoshop.png";
+import Excel from "@src/assets/img/skillsIMG/Excel.png";
+import Php from "@src/assets/img/skillsIMG/Php.png";
+import Phpmyadmin from "@src/assets/img/skillsIMG/Phpmyadmin.png";
+
 import "aos/dist/aos.css";
 
 let styles = {
@@ -59,6 +70,12 @@ const IworkWith = () => {
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
+                <Image src={Sass} />
+              </span>
+              <h3 className={styles.h3}>Sass</h3>
+            </li>
+            <li className={styles.li}>
+              <span className={styles.span}>
                 <Image src={Tailwind} />
               </span>
               <h3 className={styles.h3}>Tailwind</h3>
@@ -81,6 +98,30 @@ const IworkWith = () => {
               </span>
               <h3 className={styles.h3}>Webpack</h3>
             </li>
+            <li className={styles.li}>
+              <span className={styles.span}>
+                <Image src={Php} />
+              </span>
+              <h3 className={styles.h3}>Php</h3>
+            </li>
+            <li className={styles.li}>
+              <span className={styles.span}>
+                <Image src={Phpmyadmin} />
+              </span>
+              <h3 className={styles.h3}>Phpmyadmin</h3>
+            </li>
+            <li className={styles.li}>
+              <span className={styles.span}>
+                <Image src={StarUML} />
+              </span>
+              <h3 className={styles.h3}>StarUML</h3>
+            </li>
+            <li className={styles.li}>
+              <span className={styles.span}>
+                <Image src={Figma} />
+              </span>
+              <h3 className={styles.h3}>Figma</h3>
+            </li>
           </ol>
         </div>
         {/* lg: right column */}
@@ -92,9 +133,27 @@ const IworkWith = () => {
           <ol className={styles.ol}>
             <li className={styles.li}>
               <span className={styles.span}>
+                <Image src={Nextjs} />
+              </span>
+              <h3 className={styles.h3}>Next js</h3>
+            </li>
+            <li className={styles.li}>
+              <span className={styles.span}>
                 <Image src={Reactjs} />
               </span>
               <h3 className={styles.h3}>React js</h3>
+            </li>
+            <li className={styles.li}>
+              <span className={styles.span}>
+                <Image src={Wordpress} />
+              </span>
+              <h3 className={styles.h3}>Wordpress</h3>
+            </li>
+            <li className={styles.li}>
+              <span className={styles.span}>
+                <Image src={Webflow} />
+              </span>
+              <h3 className={styles.h3}>Webflow</h3>
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
@@ -125,6 +184,18 @@ const IworkWith = () => {
                 <Image src={Github} />
               </span>
               <h3 className={styles.h3}>Github</h3>
+            </li>
+            <li className={styles.li}>
+              <span className={styles.span}>
+                <Image src={Photoshop} />
+              </span>
+              <h3 className={styles.h3}>Photoshop</h3>
+            </li>
+            <li className={styles.li}>
+              <span className={styles.span}>
+                <Image src={Excel} />
+              </span>
+              <h3 className={styles.h3}>Excel</h3>
             </li>
           </ol>
         </div>
