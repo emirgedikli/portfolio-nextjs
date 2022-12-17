@@ -13,7 +13,6 @@ import Javascript from "@src/assets/img/skillsIMG/Javascript.png";
 import Mongodb from "@src/assets/img/skillsIMG/Mongodb.png";
 import Webflow from "@src/assets/img/skillsIMG/Webflow.png";
 import Wordpress from "@src/assets/img/skillsIMG/Wordpress.png";
-import Sass from "@src/assets/img/skillsIMG/Sass.png";
 import Nextjs from "@src/assets/img/skillsIMG/Nextjs.png";
 import Figma from "@src/assets/img/skillsIMG/Figma.png";
 import StarUML from "@src/assets/img/skillsIMG/Staruml.png";
@@ -70,12 +69,6 @@ const IworkWith = () => {
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
-                <Image src={Sass} />
-              </span>
-              <h3 className={styles.h3}>Sass</h3>
-            </li>
-            <li className={styles.li}>
-              <span className={styles.span}>
                 <Image src={Tailwind} />
               </span>
               <h3 className={styles.h3}>Tailwind</h3>
@@ -100,6 +93,12 @@ const IworkWith = () => {
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
+                <Image src={Reactjs} />
+              </span>
+              <h3 className={styles.h3}>React js</h3>
+            </li>
+            <li className={styles.li}>
+              <span className={styles.span}>
                 <Image src={Php} />
               </span>
               <h3 className={styles.h3}>Php</h3>
@@ -109,18 +108,6 @@ const IworkWith = () => {
                 <Image src={Phpmyadmin} />
               </span>
               <h3 className={styles.h3}>Phpmyadmin</h3>
-            </li>
-            <li className={styles.li}>
-              <span className={styles.span}>
-                <Image src={StarUML} />
-              </span>
-              <h3 className={styles.h3}>StarUML</h3>
-            </li>
-            <li className={styles.li}>
-              <span className={styles.span}>
-                <Image src={Figma} />
-              </span>
-              <h3 className={styles.h3}>Figma</h3>
             </li>
           </ol>
         </div>
@@ -139,21 +126,9 @@ const IworkWith = () => {
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
-                <Image src={Reactjs} />
-              </span>
-              <h3 className={styles.h3}>React js</h3>
-            </li>
-            <li className={styles.li}>
-              <span className={styles.span}>
                 <Image src={Wordpress} />
               </span>
               <h3 className={styles.h3}>Wordpress</h3>
-            </li>
-            <li className={styles.li}>
-              <span className={styles.span}>
-                <Image src={Webflow} />
-              </span>
-              <h3 className={styles.h3}>Webflow</h3>
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
@@ -187,15 +162,15 @@ const IworkWith = () => {
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
-                <Image src={Photoshop} />
+                <Image src={StarUML} />
               </span>
-              <h3 className={styles.h3}>Photoshop</h3>
+              <h3 className={styles.h3}>StarUML</h3>
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
-                <Image src={Excel} />
+                <Image src={Figma} />
               </span>
-              <h3 className={styles.h3}>Excel</h3>
+              <h3 className={styles.h3}>Figma</h3>
             </li>
           </ol>
         </div>
