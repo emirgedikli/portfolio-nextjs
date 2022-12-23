@@ -2,7 +2,6 @@ import Image from "next/image";
 import Html from "@src/assets/img/skillsIMG/Html.png";
 import Css from "@src/assets/img/skillsIMG/Css.png";
 import Webpack from "@src/assets/img/skillsIMG/Webpack.png";
-import Mui from "@src/assets/img/skillsIMG/Mui.png";
 import Tailwind from "@src/assets/img/skillsIMG/Tailwind.png";
 import Reactjs from "@src/assets/img/skillsIMG/Reactjs.png";
 import Github from "@src/assets/img/skillsIMG/Github.png";
@@ -10,7 +9,6 @@ import Netlify from "@src/assets/img/skillsIMG/Netlify.png";
 import Nodejs from "@src/assets/img/skillsIMG/Nodejs.png";
 import Git from "@src/assets/img/skillsIMG/Git.png";
 import Javascript from "@src/assets/img/skillsIMG/Javascript.png";
-import Mongodb from "@src/assets/img/skillsIMG/Mongodb.png";
 import Webflow from "@src/assets/img/skillsIMG/Webflow.png";
 import Wordpress from "@src/assets/img/skillsIMG/Wordpress.png";
 import Nextjs from "@src/assets/img/skillsIMG/Nextjs.png";
@@ -75,12 +73,6 @@ const IworkWith = () => {
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
-                <Image src={Mui} />
-              </span>
-              <h3 className={styles.h3}>MaterialUI</h3>
-            </li>
-            <li className={styles.li}>
-              <span className={styles.span}>
                 <Image src={Javascript} />
               </span>
               <h3 className={styles.h3}>Javascript</h3>
@@ -135,12 +127,6 @@ const IworkWith = () => {
                 <Image src={Nodejs} />
               </span>
               <h3 className={styles.h3}>Node js</h3>
-            </li>
-            <li className={styles.li}>
-              <span className={styles.span}>
-                <Image src={Mongodb} />
-              </span>
-              <h3 className={styles.h3}>Mongodb</h3>
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
