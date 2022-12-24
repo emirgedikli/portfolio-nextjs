@@ -18,6 +18,8 @@ import Photoshop from "@src/assets/img/skillsIMG/Photoshop.png";
 import Excel from "@src/assets/img/skillsIMG/Excel.png";
 import Php from "@src/assets/img/skillsIMG/Php.png";
 import Phpmyadmin from "@src/assets/img/skillsIMG/Phpmyadmin.png";
+import Mysql from "@src/assets/img/skillsIMG/Mysql.png";
+import Laravel from "@src/assets/img/skillsIMG/Laravel.png";
 
 import "aos/dist/aos.css";
 
@@ -91,15 +93,15 @@ const IworkWith = () => {
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
-                <Image src={Php} />
+                <Image src={Nextjs} />
               </span>
-              <h3 className={styles.h3}>Php</h3>
+              <h3 className={styles.h3}>Next js</h3>
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
-                <Image src={Phpmyadmin} />
+                <Image src={Wordpress} />
               </span>
-              <h3 className={styles.h3}>Phpmyadmin</h3>
+              <h3 className={styles.h3}>Wordpress</h3>
             </li>
           </ol>
         </div>
@@ -112,21 +114,21 @@ const IworkWith = () => {
           <ol className={styles.ol}>
             <li className={styles.li}>
               <span className={styles.span}>
-                <Image src={Nextjs} />
+                <Image src={Php} />
               </span>
-              <h3 className={styles.h3}>Next js</h3>
+              <h3 className={styles.h3}>Php</h3>
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
-                <Image src={Wordpress} />
+                <Image src={Mysql} />
               </span>
-              <h3 className={styles.h3}>Wordpress</h3>
+              <h3 className={styles.h3}>Mysql</h3>
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
-                <Image src={Nodejs} />
+                <Image src={Laravel} />
               </span>
-              <h3 className={styles.h3}>Node js</h3>
+              <h3 className={styles.h3}>Laravel</h3>
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
