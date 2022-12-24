@@ -87,6 +87,12 @@ const IworkWith = () => {
             </li>
             <li className={styles.li}>
               <span className={styles.span}>
+                <Image src={Wordpress} />
+              </span>
+              <h3 className={styles.h3}>Wordpress</h3>
+            </li>
+            <li className={styles.li}>
+              <span className={styles.span}>
                 <Image src={Reactjs} />
               </span>
               <h3 className={styles.h3}>React js</h3>
@@ -96,12 +102,6 @@ const IworkWith = () => {
                 <Image src={Nextjs} />
               </span>
               <h3 className={styles.h3}>Next js</h3>
-            </li>
-            <li className={styles.li}>
-              <span className={styles.span}>
-                <Image src={Wordpress} />
-              </span>
-              <h3 className={styles.h3}>Wordpress</h3>
             </li>
           </ol>
         </div>
