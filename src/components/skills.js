@@ -16,7 +16,6 @@ import Nextjs from "@src/assets/img/skillsIMG/Nextjs.png";
 import Figma from "@src/assets/img/skillsIMG/Figma.png";
 import StarUML from "@src/assets/img/skillsIMG/Staruml.png";
 import Photoshop from "@src/assets/img/skillsIMG/Photoshop.png";
-import Excel from "@src/assets/img/skillsIMG/Excel.png";
 import Php from "@src/assets/img/skillsIMG/Php.png";
 import Phpmyadmin from "@src/assets/img/skillsIMG/Phpmyadmin.png";
 import Mysql from "@src/assets/img/skillsIMG/Mysql.png";
