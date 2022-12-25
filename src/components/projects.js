@@ -99,15 +99,6 @@ const ViewProjects = () => {
                 that aims to learn how to prepare a zoning prepare a zoning and
                 a wireframe and learn how to put it in put it into code.
               </p>
-              <a
-                href="https://wireframe-emir.netlify.app/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <button type="button" className={styles.blog1div2btn}>
-                  Visit
-                </button>
-              </a>
             </div>
           </div>
         </div>
@@ -125,15 +116,6 @@ const ViewProjects = () => {
                 The goal of this project is to learn how to code the homepage of
                 a website in a responsive way.
               </p>
-              <a
-                href="https://landingpage-emir.netlify.app/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <button type="button" className={styles.blog2div2btn}>
-                  Visit
-                </button>
-              </a>
             </div>
           </div>
         </div>
@@ -152,15 +134,6 @@ const ViewProjects = () => {
                 build and manage a web agency, how to delegate tasks on github
                 and how to do git merge etc.
               </p>
-              <a
-                href="https://meta-code.netlify.app/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <button type="button" className={styles.blog3div2btn}>
-                  Visit
-                </button>
-              </a>
             </div>
           </div>
         </div>
@@ -182,15 +155,6 @@ const ViewProjects = () => {
                 withdrawal transactions. It is coded with html, css and
                 javascript.
               </p>
-              <a
-                href="https://mazebank-emir.netlify.app/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <button type="button" className={styles.blog4div2btn}>
-                  Visit
-                </button>
-              </a>
             </div>
           </div>
         </div>
@@ -208,11 +172,6 @@ const ViewProjects = () => {
                 This project is a Next.js project. React.js is also used. It is
                 an individual work to learn how to use a framework.
               </p>
-              <a href="https://bygedikli.dev/" rel="noreferrer" target="_blank">
-                <button type="button" className={styles.blog5div2btn}>
-                  Visit
-                </button>
-              </a>
             </div>
           </div>
         </div>
@@ -229,15 +188,6 @@ const ViewProjects = () => {
               <p className={styles.blog6div2p}>
                 This project is coded in vanilla. It contains only html and css.
               </p>
-              <a
-                href="https://cv-emir.netlify.app/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <button type="button" className={styles.blog6div2btn}>
-                  Visit
-                </button>
-              </a>
             </div>
           </div>
         </div>
